@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
+import NavBar from './NavBar'
 
 class PreSchool extends Component {
     render(){
         return(
             <div>
+                <NavBar/>
                 <h1>Hello from Pre-school Page</h1>
             </div>
         )
