@@ -1,11 +1,12 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import NavBar from './NavBar'
+import '../Style.css'
 
 class About extends Component {
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <NavBar/>
+                <NavBar />
                 <h1>Hello from About Page</h1>
             </div>
         )

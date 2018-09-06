@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import NavBar from './NavBar'
+import '../Style.css'
 
 class PreSchool extends Component {
     render(){

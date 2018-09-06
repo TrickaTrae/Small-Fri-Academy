@@ -1,11 +1,12 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import NavBar from './NavBar'
+import '../Style.css'
 
 class Infants extends Component {
-    render(){
-        return(
+    render() {
+        return (
             <div>
-                <NavBar/>
+                <NavBar />
                 <h1>Hello from Infants Page</h1>
             </div>
         )

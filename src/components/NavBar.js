@@ -7,7 +7,7 @@ class NavBar extends Component {
             <div>
 
                 {/* nav bar */}
-                <nav className="navbar navbar-expand-lg navbar-dark myNav">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark myNav">
                     <a className="navbar-brand" href="/">Small Fri Academy</a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                         <span className="navbar-toggler-icon"></span>
@@ -15,11 +15,11 @@ class NavBar extends Component {
 
                     <div className="collapse navbar-collapse" id="navbarContent">
                         <div className="navbar-nav">
-                            <Link to="/About"><a className="nav-item nav-link test">About</a></Link>
-                            <Link to="/Infants"><a className="nav-item nav-link">Infants</a></Link>
-                            <Link to="/2yearolds"><a className="nav-item nav-link">2 year olds</a></Link>
-                            <Link to="/Pre-School"><a className="nav-item nav-link">Pre-School</a></Link>
-                            <Link to="/Kindergarten"><a className="nav-item nav-link">Kindergarten</a></Link>
+                            <Link to="/About" className="nav-item nav-link">About</Link>
+                            <Link to="/Infants" className="nav-item nav-link">Infants</Link>
+                            <Link to="/2yearolds" className="nav-item nav-link">2 year olds</Link>
+                            <Link to="/Pre-School" className="nav-item nav-link">Pre-School</Link>
+                            <Link to="/Kindergarten" className="nav-item nav-link">Kindergarten</Link>
                         </div>
                     </div>
                 </nav>
