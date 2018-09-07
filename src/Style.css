@@ -5,6 +5,7 @@
     top: 0;
     width: 100%;
     z-index: 99;
+    box-shadow: 0px 0px 3px 1.8px black;
 }
 /* navbar styling */
 
@@ -71,11 +72,75 @@
 /* carousel styling */
 
 
-footer {
-    height: 30vh;
-    color: #fff;
+/* home about section */
+.about-title {
     text-align: center;
 }
+
+.clock,
+.ages,
+.sandwich {
+    float: left;
+    display: block;
+    height: auto;
+}
+
+.clock {
+    max-width: 35%;
+}
+
+.ages {
+    max-width: 42%;
+}
+
+.sandwich {
+    max-width: 35%;
+}
+
+.about-column {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+
+.center-column {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+
+.about-button {
+    height: 5vh;
+    width: 12vw;
+    font-size: 1.3vw;
+    background-color: rgb(100, 83, 196);
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 2px 2px 7px 0px black;
+}
+
+.about-button:active,
+.about-button:focus {
+    outline: none !important;
+}
+/* home about section */
+
+
+/* footer styling */
+footer {
+    height: 20vh;
+    color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 3px 2px black;
+}
+/* footer styling */
 
 
 h1 {
