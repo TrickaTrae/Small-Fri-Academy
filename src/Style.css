@@ -133,12 +133,58 @@
 /* home about section */
 
 
+/* director section */
+.director-title {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.director-photo {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 63%;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px 0px black;
+}
+
+.director-text {
+    text-align: center;
+    font-size: 108%;
+    margin-top: 5vh;
+}
+/* director section */
+
+
+/* parallax */
+.myParallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url("./Photos&Fonts/school.png");
+    height: auto;
+    width: 100%;
+    padding: 8vh 6vw 8vh 6vw;
+}
+/* parallax */
+
+
+/* testimonials */
+.testimonial-title {
+    text-align: center;
+    margin-top: 4vh;
+}
+/* testimonials */
+
+
 /* footer styling */
 footer {
     height: 20vh;
     color: #fff;
     text-align: center;
     box-shadow: 0px 0px 3px 2px black;
+    margin-top: 7vh;
 }
 /* footer styling */
 
