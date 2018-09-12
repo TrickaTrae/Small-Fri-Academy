@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../Style.css'
+import Logo from '../Photos&Fonts/logo.jpg'
 
 class NavBar extends Component {
     render() {
@@ -9,7 +10,10 @@ class NavBar extends Component {
 
                 {/* nav bar */}
                 <nav className="navbar navbar-expand-lg navbar-dark bg-dark myNav">
-                    <a className="navbar-brand" href="/">Small Fri Academy</a>
+                    {/* <img className="logo" src={Logo} alt="Logo"/> */}
+                    <a className="navbar-brand" href="/">
+                        Small Fri Academy
+                    </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -21,6 +25,7 @@ class NavBar extends Component {
                             <Link to="/2yearolds" className="nav-item nav-link">2 year olds</Link>
                             <Link to="/Pre-School" className="nav-item nav-link">Pre-School</Link>
                             <Link to="/Kindergarten" className="nav-item nav-link">Kindergarten</Link>
+                            <Link to="/Testimonials" className="nav-item nav-link">Testimonials</Link>
                         </div>
                     </div>
                 </nav>

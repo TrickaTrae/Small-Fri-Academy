@@ -67,7 +67,7 @@ class Home extends Component {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column">
                             <img className="clock" src={Clock} alt="Clock" />
                             <h4>Hours of Operation</h4><br />
-                            <p>
+                            <p className="aboutPar">
                                 Monday-Friday:<br />
                                 7:00am-6:00pm
                             </p>
@@ -75,7 +75,7 @@ class Home extends Component {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column center-column">
                             <img className="ages" src={Ages} alt="Ages" />
                             <h4>Age Care Range</h4><br />
-                            <p>
+                            <p className="aboutPar">
                                 We care for children from<br />
                                 12 weeks to 9 years old.
                             </p>
@@ -83,7 +83,7 @@ class Home extends Component {
                         <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column">
                             <img className="sandwich" src={Sandwich} alt="Sandwich" />
                             <h4>Meals We Provide</h4><br />
-                            <p>
+                            <p className="aboutPar">
                                 We provide breakfast, lunch, and<br />
                                 snacks through-out the day.
                             </p>
@@ -111,7 +111,7 @@ class Home extends Component {
                                 mental, social, emotional and physical growth of children. The utmost consideration and preparation is taken
                                 in planning a daily schedule that meets the needs of your child. Our center has a home like atmosphere and 
                                 quality teachers who look forward to spending each day with your child. Our easy access to the I-15 freeway 
-                                makes for a quick commute to work. We would love to give you a tour of our center
+                                makes for a quick commute to work. We would love to give you a tour of our center.
                             </p>
                         </div>
                     </div>
@@ -124,6 +124,9 @@ class Home extends Component {
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <h2 className="testimonial-title">What're Small Fri Parents Saying About Us?</h2>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 testimonial-column">
+                            <Link to="/Testimonials"><button className="testimonial-button">Read More &#187;</button></Link>
                         </div>
                     </div>
                 </div>

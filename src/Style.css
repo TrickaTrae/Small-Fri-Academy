@@ -7,6 +7,15 @@
     z-index: 99;
     box-shadow: 0px 0px 3px 1.8px black;
 }
+
+/* .logo {
+    display: block;
+    height: auto;
+    max-width: 3.5%;
+    float: left;
+    border-radius: 5px;
+    margin-right: 0.5vw;
+} */
 /* navbar styling */
 
 
@@ -108,7 +117,14 @@
     border-left: 1px solid lightgray;
 }
 
-.about-button {
+@media screen and (max-width: 768px) {
+    .center-column {
+        border: none;
+    }
+  }
+
+.about-button,
+.testimonial-button {
     height: 5vh;
     width: 12vw;
     font-size: 1.3vw;
@@ -119,7 +135,8 @@
     cursor: pointer;
 }
 
-.about-button:hover {
+.about-button:hover,
+.testimonial-button:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -132,7 +149,8 @@
 }
 
 @media screen and (max-width: 750px) {
-    .about-button {
+    .about-button,
+    .testimonial-button {
         height: 6vh;
         width: 15vw;
         font-size: 1.6vw;
@@ -140,7 +158,8 @@
   }
 
   @media screen and (max-width: 600px) {
-    .about-button {
+    .about-button,
+    .testimonial-button {
         height: 5vh;
         width: 18vw;
         font-size: 1.9vw;
@@ -148,10 +167,23 @@
   }
 
   @media screen and (max-width: 420px) {
-    .about-button {
+    .about-button,
+    .testimonial-button {
         height: 5vh;
         width: 28vw;
         font-size: 3vw;
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    .aboutPar {
+        font-size: 3.8vw;
+    }
+  }
+
+  @media screen and (max-width: 340px) {
+    .aboutPar {
+        margin-left: 38vw;
     }
   }
 /* home about section */
@@ -198,6 +230,10 @@
 .testimonial-title {
     text-align: center;
     margin-top: 4vh;
+}
+
+.testimonial-column {
+    text-align: center;
 }
 /* testimonials */
 
