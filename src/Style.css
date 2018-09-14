@@ -7,15 +7,6 @@
     z-index: 99;
     box-shadow: 0px 0px 3px 1.8px black;
 }
-
-/* .logo {
-    display: block;
-    height: auto;
-    max-width: 3.5%;
-    float: left;
-    border-radius: 5px;
-    margin-right: 0.5vw;
-} */
 /* navbar styling */
 
 
@@ -117,65 +108,7 @@
     border-left: 1px solid lightgray;
 }
 
-@media screen and (max-width: 768px) {
-    .center-column {
-        border: none;
-    }
-  }
-
-.about-button,
-.testimonial-button {
-    height: 5vh;
-    width: 12vw;
-    font-size: 1.3vw;
-    background-color: rgb(100, 83, 196);
-    color: #fff;
-    border-radius: 4px;
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-.about-button:hover,
-.testimonial-button:hover {
-    -webkit-transform: scale(1.05);
-    -ms-transform: scale(1.05);
-    transform: scale(1.05);
-    box-shadow: 2px 2px 7px 0px black;
-}
-
-.about-button:active,
-.about-button:focus {
-    outline: none !important;
-}
-
-@media screen and (max-width: 750px) {
-    .about-button,
-    .testimonial-button {
-        height: 6vh;
-        width: 15vw;
-        font-size: 1.6vw;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .about-button,
-    .testimonial-button {
-        height: 5vh;
-        width: 18vw;
-        font-size: 1.9vw;
-    }
-  }
-
-  @media screen and (max-width: 420px) {
-    .about-button,
-    .testimonial-button {
-        height: 5vh;
-        width: 28vw;
-        font-size: 3vw;
-    }
-  }
-
-  @media screen and (max-width: 390px) {
+@media screen and (max-width: 390px) {
     .aboutPar {
         font-size: 3.8vw;
     }
@@ -184,6 +117,12 @@
   @media screen and (max-width: 340px) {
     .aboutPar {
         margin-left: 38vw;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .center-column {
+        border: none;
     }
   }
 /* home about section */
@@ -226,7 +165,7 @@
 /* parallax */
 
 
-/* testimonials */
+/* testimonials section */
 .testimonial-title {
     text-align: center;
     margin-top: 4vh;
@@ -235,8 +174,51 @@
 .testimonial-column {
     text-align: center;
 }
-/* testimonials */
+/* testimonials section */
 
+
+/* Pre-school page */
+.Pre-Body {
+    background-image: linear-gradient(to bottom, #d75151, #df446c, #de3d8c, #d144b0, #b454d3);
+}
+
+.Pre-Main {
+    background-color: #ffffff;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Pre-About {
+    text-align: center;
+    font-size: 112%;
+}
+
+.Pre-Pic1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 68%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.list1 {
+    margin-top: 4vh;
+}
+
+.Pre-Pic2 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 75%;
+}
+
+.row2 {
+    margin-top: 6vh;
+}
+/* Pre-school page */
 
 /* footer styling */
 footer {
@@ -249,6 +231,87 @@ footer {
 /* footer styling */
 
 
+/* buttons */
+.contact-column {
+    text-align: center;
+    margin-bottom: 6vh;
+}
+
+.about-button,
+.testimonial-button,
+.contact-button {
+    height: 5vh;
+    width: 12vw;
+    font-size: 1.3vw;
+    background-color: rgb(100, 83, 196);
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.about-button:hover,
+.testimonial-button:hover,
+.contact-button:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    box-shadow: 2px 2px 7px 0px black;
+}
+
+.about-button:active,
+.about-button:focus,
+.testimonial-button:active,
+.testimonial-button:focus,
+.contact-button:active,
+.contact-button:focus {
+    outline: none !important;
+}
+
+@media screen and (max-width: 750px) {
+    .about-button,
+    .testimonial-button,
+    .contact-button {
+        height: 6vh;
+        width: 15vw;
+        font-size: 1.6vw;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .about-button,
+    .testimonial-button,
+    .contact-button {
+        height: 5vh;
+        width: 18vw;
+        font-size: 1.9vw;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+    .about-button,
+    .testimonial-button,
+    .contact-button {
+        height: 5vh;
+        width: 28vw;
+        font-size: 3vw;
+    }
+  }
+  /* buttons */
+
+
 h1 {
-    margin-top: 8vh;
+    margin-top: 12vh;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+
+.divider {
+    border-bottom: 1px solid gray;
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 80%;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
 }
