@@ -307,6 +307,49 @@
 }
 /* Pre-school page */
 
+
+/* Kindergarten */
+.Kindergarten-Body {
+    background-image: linear-gradient(to bottom, #f0e70b, #ff9f00, #ff3153, #ff00a1, #9712eb);
+}
+
+.Kindergarten-Main {
+    background-color: #ffffff;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Kindergarten-About {
+    text-align: center;
+    font-size: 109%;
+}
+
+.Kindergarten-Pic1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 85%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.Kindergarten-Pic2 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 68%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.list3 {
+    margin-top: 7vh;
+}
+/* Kindergarten */
+
+
 /* footer styling */
 footer {
     height: 20vh;
