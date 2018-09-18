@@ -10,65 +10,78 @@
 /* navbar styling */
 
 
-/* carousel styling */
-.myCarousel {
-    margin: 6% 1% 3% 1%;
-    border: 1px solid black;
+/* home page */
+.Home-Main {
+    padding-top: 4.4%;
 }
 
-@media screen and (max-width: 1000px) {
-    .myCarousel {
-        margin: 7% 1% 3% 1%;
+@media screen and (max-width: 1200px) {
+    .Home-Main {
+        padding-top: 5.4%;
     }
   }
 
-  @media screen and (max-width: 840px) {
-    .myCarousel {
-        margin: 8% 1% 3% 1%;
+  @media screen and (max-width: 1080px) {
+    .Home-Main {
+        padding-top: 5.8%;
     }
   }
 
-  @media screen and (max-width: 730px) {
-    .myCarousel {
-        margin: 9% 1% 3% 1%;
+  @media screen and (max-width: 1000px) {
+    .Home-Main {
+        padding-top: 6.4%;
     }
   }
 
-  @media screen and (max-width: 640px) {
-    .myCarousel {
-        margin: 10% 1% 3% 1%;
+  @media screen and (max-width: 900px) {
+    .Home-Main {
+        padding-top: 7.4%;
     }
   }
 
-  @media screen and (max-width: 570px) {
-    .myCarousel {
-        margin: 11% 1% 3% 1%;
+  @media screen and (max-width: 780px) {
+    .Home-Main {
+        padding-top: 8.4%;
     }
   }
 
-  @media screen and (max-width: 520px) {
-    .myCarousel {
-        margin: 12% 1% 3% 1%;
+  @media screen and (max-width: 680px) {
+    .Home-Main {
+        padding-top: 10%;
     }
   }
 
-  @media screen and (max-width: 450px) {
-    .myCarousel {
-        margin: 15.5% 1% 3% 1%;
+  @media screen and (max-width: 580px) {
+    .Home-Main {
+        padding-top: 12%;
     }
   }
 
-  @media screen and (max-width: 370px) {
-    .myCarousel {
-        margin: 17% 1% 3% 1%;
+  @media screen and (max-width: 480px) {
+    .Home-Main {
+        padding-top: 14%;
     }
   }
 
-  @media screen and (max-width: 330px) {
-    .myCarousel {
-        margin: 19% 1% 3% 1%;
+  @media screen and (max-width: 415px) {
+    .Home-Main {
+        padding-top: 16%;
     }
   }
+
+  @media screen and (max-width: 350px) {
+    .Home-Main {
+        padding-top: 19%;
+    }
+  }
+  /* home page */
+
+
+/* carousel styling */
+.myCarousel {
+    margin: 0% 0.5% 3% 0.5%;
+    border: 1px solid black;
+}
 /* carousel styling */
 
 
@@ -128,7 +141,7 @@
 /* home about section */
 
 
-/* director section */
+/* home director section */
 .director-title {
     text-align: center;
     margin-bottom: 5vh;
@@ -149,7 +162,7 @@
     font-size: 108%;
     margin-top: 5vh;
 }
-/* director section */
+/* home director section */
 
 
 /* parallax */
@@ -165,7 +178,7 @@
 /* parallax */
 
 
-/* testimonials section */
+/* home testimonials section */
 .testimonial-title {
     text-align: center;
     margin-top: 4vh;
@@ -179,13 +192,16 @@
     background-color: rgb(70, 93, 122);
     color: white;
     margin-top: 7vh;
+    margin-bottom: 9vh;
     padding-bottom: 5vh;
     border-radius: 3px;
 }
 
 .myCarousel2 {
     background-color: rgb(55, 75, 99);
-    height: 45vh;
+    display: block;
+    min-height: 40vh;
+    max-width: 90%;
     margin: 4vh 5vw 4vh 5vw;
     padding: 3vh 4vw 0vh 4vw;
     border-radius: 12px;
@@ -201,7 +217,49 @@
     margin-left: 0.2vw;
 }
 /* testimonial carousel */
-/* testimonials section */
+/* home testimonials section */
+
+
+/* 2 year old page */
+.Age2-Body {
+    background-image: linear-gradient(to bottom, #264e8b, #007bc1, #00a7c7, #00cd90, #2ceb12);
+}
+
+.Age2-Main {
+    background-color: #ffffff;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Age2-About {
+    text-align: center;
+    font-size: 110%;
+}
+
+.Age2-Pic1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 70%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.Age2-Pic2 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 73%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.list2 {
+    margin-top: 7vh;
+}
+/* 2 year old page */
 
 
 /* Pre-school page */
