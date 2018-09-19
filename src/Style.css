@@ -408,7 +408,37 @@
 /* Kindergarten */
 
 
+/* contact page */
+.formTitle {
+    color: #ffffff;
+    margin-bottom: 3vh;
+    font-size: 185%;
+}
 
+.myForm {
+    text-align: center;
+    background-color: rgb(101, 113, 128);
+    padding: 5vh;
+    display: block;
+    height: auto;
+    max-width: 95%;
+    border-radius: 10px;
+}
+
+.myInput {
+    margin-bottom: 2vh;
+    width: 25vw;
+    height: 6vh;
+    border-radius: 5px;
+}
+
+.messageInput {
+    width: 25vw;
+    height: 20vh;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+}
+/* contact page */
 
 
 /* buttons */
@@ -417,14 +447,16 @@
     margin-bottom: 6vh;
 }
 
-.testimonial-button {
+.testimonial-button,
+.form-button {
     background-color: #ffffff !important;
     color: black !important;
 }
 
 .about-button,
 .testimonial-button,
-.contact-button {
+.contact-button,
+.form-button {
     height: 5vh;
     width: 12vw;
     font-size: 1.3vw;
@@ -437,7 +469,8 @@
 
 .about-button:hover,
 .testimonial-button:hover,
-.contact-button:hover {
+.contact-button:hover,
+.form-button:hover {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05);
@@ -449,14 +482,17 @@
 .testimonial-button:active,
 .testimonial-button:focus,
 .contact-button:active,
-.contact-button:focus {
+.contact-button:focus,
+.form-button:active,
+.form-button:focus {
     outline: none !important;
 }
 
 @media screen and (max-width: 750px) {
     .about-button,
     .testimonial-button,
-    .contact-button {
+    .contact-button,
+    .form-button {
         height: 6vh;
         width: 15vw;
         font-size: 1.6vw;
@@ -466,7 +502,8 @@
   @media screen and (max-width: 600px) {
     .about-button,
     .testimonial-button,
-    .contact-button {
+    .contact-button,
+    .form-button {
         height: 5vh;
         width: 18vw;
         font-size: 1.9vw;
@@ -476,7 +513,8 @@
   @media screen and (max-width: 420px) {
     .about-button,
     .testimonial-button,
-    .contact-button {
+    .contact-button,
+    .form-button {
         height: 5vh;
         width: 28vw;
         font-size: 3vw;

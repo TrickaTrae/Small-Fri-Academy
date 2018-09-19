@@ -6,9 +6,10 @@ class About extends Component {
     render() {
         return (
             <div>
+
                 <NavBar />
 
-                <h1>Hello from About Page</h1>
+                <h1>About The Owner/Business</h1>
 
             </div>
         )
