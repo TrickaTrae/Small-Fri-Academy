@@ -10,6 +10,7 @@ import Clock from '../Photos&Fonts/clock.png'
 import Ages from '../Photos&Fonts/Ages.jpg'
 import Sandwich from '../Photos&Fonts/sandwich.png'
 import Directors from '../Photos&Fonts/Directors.jpg'
+import Logo from '../Photos&Fonts/Small-Fri-Logo.jpg'
 
 
 class Home extends Component {
@@ -199,15 +200,38 @@ class Home extends Component {
                     <div className="divider">
                     </div>
 
-                    {/* --------------contact section-------------- */}
+                    {/* --------------footer-------------- */}
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                hello
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <p className="footer-quote">
+                                    <span className="quoteLeft">“</span>
+                                    Dedicated to the Mental, Social, Emotional, and Physical Growth of Children.
+                                <span className="quoteRight">”</span>
+                                </p>
                             </div>
                         </div>
                     </div>
-                    {/* ----------end of contact section---------- */}
+
+                    <div className="divider">
+                    </div>
+
+                    <div className="container footer-container">
+                        <div className="row">
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <img className="Logo" src={Logo} alt="Logo" />
+                            </div>
+                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                <p className="footer-text">
+                                    <i className="fa fa-map-marker fa-lg myIcon"></i>131 West Woodrow Street, Salt Lake City<br />
+                                    <i className="fa fa-phone-square myIcon"></i>801-266-0177<br />
+                                    <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br/>
+                                    <a href="https://facebook.com"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* ----------end of footer---------- */}
                 </main>
 
             </div>

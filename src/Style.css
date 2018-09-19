@@ -220,6 +220,64 @@
 /* home testimonials section */
 
 
+/* footer styling */
+.footer-quote {
+    text-align: center;
+    font-size: 170%;
+    margin-bottom: 2vh;
+}
+
+.Logo {
+    display: block;
+    height: auto;
+    max-width: 32%;
+    float: right;
+}
+
+.footer-text {
+    font-size: 120%;
+    margin-top: 5vh;
+}
+
+.myIcon {
+    margin-right: 1%;
+}
+
+.footer-container {
+    margin-bottom: 6vh;
+}
+/* footer styling */
+
+
+/* infant page */
+.Infant-Body {
+    background-image: linear-gradient(to bottom, #23ff00, #a4df00, #d2bd00, #e69c0e, #e58142);
+}
+
+.Infant-Main {
+    background-color: #ffffff;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Infant-About {
+    text-align: center;
+    font-size: 110%;
+}
+
+.Infant-Pic1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 70%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+/* infant page */
+
+
 /* 2 year old page */
 .Age2-Body {
     background-image: linear-gradient(to bottom, #264e8b, #007bc1, #00a7c7, #00cd90, #2ceb12);
@@ -350,15 +408,7 @@
 /* Kindergarten */
 
 
-/* footer styling */
-footer {
-    height: 20vh;
-    color: #fff;
-    text-align: center;
-    box-shadow: 0px 0px 3px 2px black;
-    margin-top: 7vh;
-}
-/* footer styling */
+
 
 
 /* buttons */
