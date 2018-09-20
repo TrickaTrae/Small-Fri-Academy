@@ -10,53 +10,70 @@ import Clock from '../Photos&Fonts/clock.png'
 import Ages from '../Photos&Fonts/Ages.jpg'
 import Sandwich from '../Photos&Fonts/sandwich.png'
 import Directors from '../Photos&Fonts/Directors.jpg'
-import Logo from '../Photos&Fonts/Small-Fri-Logo.jpg'
+import Logo from '../Photos&Fonts/Small-Fri-Logo-Transparent.png'
 
 
 class Home extends Component {
     render() {
         return (
-            <div className="Home-Body">
+            <div>
 
                 <NavBar />
 
                 <main className="Home-Main">
-                    {/* ----------------------Bootstrap carousel--------------------- */}
-                    <div id="carouselSlides" className="carousel slide myCarousel" data-ride="carousel" data-interval="3000" data-wrap="true" >
-                        {/* -----Carousel indicators----- */}
-                        <ol className="carousel-indicators">
-                            <li data-target="#carouselSlides" data-slide-to="0" className="active"></li>
-                            <li data-target="#carouselSlides" data-slide-to="1"></li>
-                            <li data-target="#carouselSlides" data-slide-to="2"></li>
-                            <li data-target="#carouselSlides" data-slide-to="3"></li>
-                        </ol>
-                        {/* -----End of carousel indicators----- */}
-                        <div className="carousel-inner">
-                            <div className="carousel-item active">
-                                <img className="d-block w-100" src={IMG1} alt="Pic1" />
-                            </div>
-                            <div className="carousel-item">
-                                <img className="d-block w-100" src={IMG2} alt="Pic2" />
-                            </div>
-                            <div className="carousel-item">
-                                <img className="d-block w-100" src={IMG3} alt="Pic3" />
-                            </div>
-                            <div className="carousel-item">
-                                <img className="d-block w-100" src={IMG4} alt="Pic4" />
+
+                    <section className="home-section">
+
+                        <div className="container-fluid">
+                            <div className="row">
+                                <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <p className="footer-quote">
+                                        <span className="quoteLeft">“</span>
+                                        Dedicated to the Mental, Social, Emotional, and Physical Growth of Children.
+                                <span className="quoteRight">”</span>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        {/* ------Buttons for my carousel----- */}
-                        <a className="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Previous</span>
-                        </a>
-                        <a className="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="sr-only">Next</span>
-                        </a>
-                        {/* ------End of buttons for my carousel------ */}
-                    </div>
-                    {/* ----------------------------End of Bootstrap carousel------------------------------ */}
+
+
+                        {/* ----------------------Bootstrap carousel--------------------- */}
+                        <div id="carouselSlides" className="carousel slide myCarousel" data-ride="carousel" data-interval="5000" data-wrap="true" >
+                            {/* -----Carousel indicators----- */}
+                            <ol className="carousel-indicators">
+                                <li data-target="#carouselSlides" data-slide-to="0" className="active"></li>
+                                <li data-target="#carouselSlides" data-slide-to="1"></li>
+                                <li data-target="#carouselSlides" data-slide-to="2"></li>
+                                <li data-target="#carouselSlides" data-slide-to="3"></li>
+                            </ol>
+                            {/* -----End of carousel indicators----- */}
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img className="d-block w-100" src={IMG1} alt="Pic1" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src={IMG2} alt="Pic2" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src={IMG3} alt="Pic3" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src={IMG4} alt="Pic4" />
+                                </div>
+                            </div>
+                            {/* ------Buttons for my carousel----- */}
+                            <a className="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Previous</span>
+                            </a>
+                            <a className="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span className="sr-only">Next</span>
+                            </a>
+                            {/* ------End of buttons for my carousel------ */}
+                        </div>
+                        {/* ----------------------------End of Bootstrap carousel------------------------------ */}
+                    </section>
 
 
                     {/* -----------------About us section----------------- */}
@@ -129,7 +146,7 @@ class Home extends Component {
                             </div>
 
                             {/* Bootstrap carousel */}
-                            <div id="carouselSlides2" className="carousel slide myCarousel2" data-ride="carousel" data-interval="3000" data-wrap="true" >
+                            <div id="carouselSlides2" className="carousel slide myCarousel2" data-ride="carousel" data-interval="5000" data-wrap="true" >
                                 {/* Carousel indicators */}
                                 <ol className="carousel-indicators">
                                     <li data-target="#carouselSlides2" data-slide-to="0" className="active"></li>
@@ -197,26 +214,11 @@ class Home extends Component {
                     </div>
                     {/* -----------end of testimonial section---------- */}
 
-                    <div className="divider">
-                    </div>
 
                     {/* --------------footer-------------- */}
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p className="footer-quote">
-                                    <span className="quoteLeft">“</span>
-                                    Dedicated to the Mental, Social, Emotional, and Physical Growth of Children.
-                                <span className="quoteRight">”</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className="divider">
-                    </div>
 
-                    <div className="container footer-container">
+                    <div className="container-fluid footer-container">
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
                                 <img className="Logo" src={Logo} alt="Logo" />
@@ -225,8 +227,8 @@ class Home extends Component {
                                 <p className="footer-text">
                                     <i className="fa fa-map-marker fa-lg myIcon"></i>131 West Woodrow Street, Salt Lake City<br />
                                     <i className="fa fa-phone-square myIcon"></i>801-266-0177<br />
-                                    <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br/>
-                                    <a href="https://facebook.com"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
+                                    <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br />
+                                    <a href="https://facebook.com" className="footer-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
                                 </p>
                             </div>
                         </div>
