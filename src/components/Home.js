@@ -115,7 +115,7 @@ class Home extends Component {
 
 
                     {/* ---------------director section----------------- */}
-                    <div className="container-fluid myParallax">
+                    <div className="container-fluid director-container">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h2 className="director-title">Message From Management</h2>

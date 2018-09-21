@@ -163,6 +163,14 @@
 
 
 /* home director section */
+.director-container {
+    color: #ffffff;
+    background-color: #540D6E;
+    height: auto;
+    width: 100%;
+    padding: 6vh 6vw 6vh 6vw;
+}
+
 .director-title {
     text-align: center;
     margin-bottom: 5vh;
@@ -184,17 +192,6 @@
     margin-top: 4vh;
 }
 /* home director section */
-
-
-/* parallax */
-.myParallax {
-    color: #ffffff;
-    background-color: #540D6E;
-    height: auto;
-    width: 100%;
-    padding: 6vh 6vw 6vh 6vw;
-}
-/* parallax */
 
 
 /* home testimonials section */
@@ -272,6 +269,16 @@
     background-color: #FFD23F;
 }
 /* footer styling */
+
+
+/* about page */
+.Nutrition {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 100%;
+}
+/* about page */
 
 
 /* infant page */
