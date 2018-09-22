@@ -22,12 +22,12 @@ class Home extends Component {
 
                 <main className="Home-Main">
 
+                    {/* --------------------Home section-------------------- */}
                     <section className="home-section">
-
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                    <p className="footer-quote">
+                                    <p className="home-quote">
                                         <span className="quoteLeft">“</span>
                                         Dedicated to the Mental, Social, Emotional, and Physical Growth of Children.
                                 <span className="quoteRight">”</span>
@@ -35,8 +35,6 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-
-
                         {/* ----------------------Bootstrap carousel--------------------- */}
                         <div id="carouselSlides" className="carousel slide myCarousel" data-ride="carousel" data-interval="5000" data-wrap="true" >
                             {/* -----Carousel indicators----- */}
@@ -74,6 +72,7 @@ class Home extends Component {
                         </div>
                         {/* ----------------------------End of Bootstrap carousel------------------------------ */}
                     </section>
+                    {/* --------------------End of Home section-------------------- */}
 
 
                     {/* -----------------About us section----------------- */}
@@ -116,14 +115,14 @@ class Home extends Component {
 
                     {/* ---------------director section----------------- */}
                     <div className="container-fluid director-container">
-                        <div className="row">
+                        <div className="row director-row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h2 className="director-title">Message From Management</h2>
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                 <img className="img-fluid director-photo" src={Directors} alt="Directors" />
                             </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                 <p className="director-text">
                                     Small Fri Academy has been offering child care for 19 years. Our center Was created to be dedicated to the
                                     mental, social, emotional and physical growth of children. The utmost consideration and preparation is taken
@@ -213,11 +212,10 @@ class Home extends Component {
                         </div>
                     </div>
                     {/* -----------end of testimonial section---------- */}
+                    </main>
 
 
                     {/* --------------footer-------------- */}
-
-
                     <div className="container-fluid footer-container">
                         <div className="row">
                             <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -234,7 +232,7 @@ class Home extends Component {
                         </div>
                     </div>
                     {/* ----------end of footer---------- */}
-                </main>
+                
 
             </div>
         )
