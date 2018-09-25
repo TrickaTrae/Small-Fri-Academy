@@ -611,31 +611,119 @@
 .formTitle {
     color: #ffffff;
     margin-bottom: 3vh;
-    font-size: 185%;
+    font-size: 2.2vw;
+}
+
+@media screen and (max-width: 900px) {
+    .formTitle {
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .formTitle {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .formTitle {
+        font-size: 4vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .formTitle {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .formTitle {
+        font-size: 5vw;
+    }
 }
 
 .myForm {
     text-align: center;
-    background-color: rgb(101, 113, 128);
+    background-image: linear-gradient(to bottom, #f06673, #f15866, #f14a58, #f0394b, #ef233c);
     padding: 5vh;
     display: block;
     height: auto;
-    max-width: 95%;
+    margin: auto;
+    width: 95%;
     border-radius: 10px;
+    box-shadow: 2px 2px 9px 0px black;
 }
 
 .myInput {
     margin-bottom: 2vh;
-    width: 25vw;
+    display: block;
+    width: 70%;
     height: 6vh;
+    margin: auto;
     border-radius: 5px;
+    border: 1px solid black;
 }
 
 .messageInput {
-    width: 25vw;
+    display: block;
+    width: 70%;
     height: 20vh;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
+    margin: auto;
     border-radius: 5px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 1000px) {
+    .myInput,
+    .messageInput {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .myInput,
+    .messageInput {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .myInput,
+    .messageInput {
+        width: 100%;
+    }
+}
+
+.myInput:focus,
+.myInput:active,
+.messageInput:focus,
+.messageInput:active {
+    outline: none;
+    background-color: #ffffff;
+    -webkit-transform: scale(1.015);
+    -ms-transform: scale(1.015);
+    transform: scale(1.015);
+}
+
+.myInput:focus::-webkit-input-placeholder { color:transparent; }
+.myInput:focus:-moz-placeholder { color:transparent; }
+.myInput:focus::-moz-placeholder { color:transparent; }
+.myInput:focus:-ms-input-placeholder { color:transparent; }
+.messageInput:focus::-webkit-input-placeholder { color:transparent; }
+.messageInput:focus:-moz-placeholder { color:transparent; }
+.messageInput:focus::-moz-placeholder { color:transparent; }
+.messageInput:focus:-ms-input-placeholder { color:transparent; }
+
+.contact-text{
+    color: #252323;
+    font-size: 180%;
+}
+
+.contact-link {
+    color: #252323;
 }
 /* contact page */
 
