@@ -212,27 +212,30 @@ class Home extends Component {
                         </div>
                     </div>
                     {/* -----------end of testimonial section---------- */}
-                    </main>
+                </main>
 
 
-                    {/* --------------footer-------------- */}
-                    <div className="container-fluid footer-container">
-                        <div className="row">
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <img className="Logo" src={Logo} alt="Logo" />
-                            </div>
-                            <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                                <p className="footer-text">
-                                    <i className="fa fa-map-marker fa-lg myIcon"></i>131 West Woodrow Street, Salt Lake City<br />
-                                    <i className="fa fa-phone-square myIcon"></i>801-266-0177<br />
-                                    <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br />
-                                    <a href="https://facebook.com" className="footer-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
-                                </p>
-                            </div>
+                {/* --------------footer-------------- */}
+                <div className="container-fluid footer-container">
+                    <div className="row">
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <img className="Logo" src={Logo} alt="Logo" />
+                        </div>
+                        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <p className="footer-text">
+                                <i className="fa fa-map-marker fa-lg myIcon"></i>131 West Woodrow Street, Salt Lake City<br />
+                                <i className="fa fa-phone-square myIcon"></i>801-266-0177<br />
+                                <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br />
+                                <a href="https://facebook.com" className="footer-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
+                            </p>
+                        </div>
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p className="copyright">&#169;2018 Small Fri Academy - All rights reserved.</p>
                         </div>
                     </div>
-                    {/* ----------end of footer---------- */}
-                
+                </div>
+                {/* ----------end of footer---------- */}
+
 
             </div>
         )
