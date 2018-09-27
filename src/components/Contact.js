@@ -3,7 +3,6 @@ import NavBar from './NavBar'
 import '../Style.css'
 import {
     Map,
-    InfoWindow,
     Marker,
     GoogleApiWrapper
 } from 'google-maps-react';
@@ -43,32 +42,25 @@ class Contact extends Component {
                                 <i className="fa fa-phone-square myIcon"></i>801-266-0177<br />
                                 <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br />
                                 <a href="https://facebook.com" className="contact-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
+
                             </p>
+                            <Map className="myMap"
+
+                                google={this.props.google}
+                                initialCenter={{
+                                    lat: 40.6537629,
+                                    lng: -111.8947955
+                                }}
+                                zoom={14}
+                            >
+                                <Marker
+                                    title={'Small Fri Academy'}
+                                    position={{ lat: 40.6537629, lng: -111.8947955 }}
+                                />
+                            </Map>
                         </div>
                     </div>
                 </div>
-
-                <Map
-                    style={{
-                        width: '90%',
-                        height: '80%',
-                        margin: 'auto',
-                        border: '1px solid black',
-                        boxShadow: '2px 2px 7px 0px black'
-                    }}
-
-                    google={this.props.google}
-                    initialCenter={{
-                        lat: 40.6537629,
-                        lng: -111.8947955
-                    }}
-                    zoom={14}
-                >
-                    <Marker
-                        title={'Small Fri Academy'}
-                        position={{ lat: 40.6537629, lng: -111.8947955 }}
-                    />
-                </Map>
 
             </div>
         )

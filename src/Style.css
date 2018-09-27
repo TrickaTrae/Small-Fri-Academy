@@ -717,13 +717,48 @@
 .messageInput:focus::-moz-placeholder { color:transparent; }
 .messageInput:focus:-ms-input-placeholder { color:transparent; }
 
-.contact-text{
+.contact-text {
     color: #252323;
-    font-size: 180%;
+    font-size: 175%;
+}
+
+@media screen and (max-width: 767px) {
+    .contact-text {
+        text-align: center;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contact-text {
+        font-size: 125%;
+    }
 }
 
 .contact-link {
     color: #252323;
+}
+
+.myMap {
+    height: 61.5% !important;
+    width: 93% !important;
+    border: 1px solid black;
+    box-shadow: 2px 2px 7px 0px black;
+}
+
+@media screen and (max-width: 767px) {
+    .myMap {
+        height: 150% !important;
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .myMap {
+        height: 130% !important;
+        width: 100% !important;
+    }
 }
 /* contact page */
 
