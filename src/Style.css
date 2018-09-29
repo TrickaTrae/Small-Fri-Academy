@@ -724,6 +724,61 @@
 /* Kindergarten */
 
 
+/* testimonials */
+.test-main {
+    padding-right: 6vw;
+    padding-left: 6vw;
+    padding-top: 12vh;
+    padding-bottom: 5vh;
+}
+
+.test-title {
+    font-size: 250%;
+}
+
+.test-quote {
+    font-size: 200%;
+    margin-right: 1%;
+}
+
+.testimonial-left,
+.testimonial-right {
+    background-color: lightblue;
+    text-align: center;
+    padding: 4%;
+    border-radius: 12px;
+}
+
+.testimonial-left {
+    
+}
+
+.testimonial-right {
+    
+}
+
+.charles {
+    margin-top: 6vh;
+}
+
+.nicolette {
+    margin-top: -12vh;
+}
+
+.kathryn {
+    margin-top: -9vh;
+}
+
+.leslie {
+    margin-top: -24vh;
+}
+
+.amonrat {
+    margin-top: -21vh;
+}
+/* testimonials */
+
+
 /* contact page */
 .formTitle {
     color: #ffffff;
