@@ -582,7 +582,7 @@
 
 /* infant page */
 .Infant-Body {
-    background-image: linear-gradient(to bottom, #23ff00, #a4df00, #d2bd00, #e69c0e, #e58142);
+    background-image: linear-gradient(to bottom, #96da4a, #ace442, #c4ee39, #ddf72f, #f7ff22);
 }
 
 .Infant-Main {
@@ -699,7 +699,7 @@
 
 /* Kindergarten */
 .Kindergarten-Body {
-    background-image: linear-gradient(to bottom, #f0e70b, #ff9f00, #ff3153, #ff00a1, #9712eb);
+    background-image: linear-gradient(to bottom, #f0920b, #f47b25, #f46537, #ef4f48, #e53b57);
 }
 
 .Kindergarten-Main {
@@ -708,6 +708,12 @@
     margin-left: 5.5%;
     padding-left: 2vw;
     padding-right: 2vw;
+}
+
+@media screen and (max-width: 455px) {
+    .kindergarten-title {
+        font-size: 8.5vw;
+    }
 }
 
 .Kindergarten-About {
@@ -970,13 +976,15 @@
     .myMap {
         height: 150% !important;
         width: 95% !important;
+        margin-bottom: 6vh !important;
     }
 }
 
 @media screen and (max-width: 500px) {
     .myMap {
         height: 120% !important;
-        width: 94% !important;
+        width: 92% !important;
+        margin-bottom: 6vh !important;
     }
 }
 /* contact page */

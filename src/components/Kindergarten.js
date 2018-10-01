@@ -16,7 +16,7 @@ class Kindergarten extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1>Kindergarten/School Age</h1>
+                                <h1 className="kindergarten-title">Kindergarten/School Age</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <p className="Kindergarten-About">
