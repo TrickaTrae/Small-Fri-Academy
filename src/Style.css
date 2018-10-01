@@ -500,6 +500,13 @@
     }
 }
 
+@media screen and (min-width: 1600px) {
+    .about-title,
+    .about-subTitle {
+        font-size: 270%;
+    }
+}
+
 .about-par {
     text-align: center;
     margin-bottom: 5vh;
@@ -541,6 +548,14 @@
     .employee-par,
     .nutrition-par {
         font-size: 90%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .about-par,
+    .employee-par,
+    .nutrition-par {
+        font-size: 125%;
     }
 }
 
@@ -730,10 +745,26 @@
     padding-left: 6vw;
     padding-top: 12vh;
     padding-bottom: 5vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url(./Photos&Fonts/stripes-light.png)
 }
 
 .test-title {
     font-size: 250%;
+}
+
+@media screen and (min-width: 1600px) {
+    .test-title {
+        font-size: 270%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .test-title {
+        text-align: center;
+    }
 }
 
 .test-quote {
@@ -743,43 +774,32 @@
 
 .testimonial-left,
 .testimonial-right {
-    background-color: lightblue;
+    background-color: #a3daec;
     text-align: center;
     padding: 4%;
     border-radius: 12px;
+    border: 0.5px solid black;
 }
 
-.testimonial-left {
-    
+.testimonial-left:hover,
+.testimonial-right:hover {
+    transform: scale(1.03);
+    box-shadow: 2.5px 2.5px 7px 0px black;
 }
 
-.testimonial-right {
-    
-}
-
-.charles {
+.left-column {
     margin-top: 6vh;
-}
-
-.nicolette {
-    margin-top: -12vh;
-}
-
-.kathryn {
-    margin-top: -9vh;
-}
-
-.leslie {
-    margin-top: -24vh;
-}
-
-.amonrat {
-    margin-top: -21vh;
 }
 /* testimonials */
 
 
 /* contact page */
+@media screen and (min-width: 1600px) {
+    .contact-title {
+        font-size: 270%;
+    }
+}
+
 .formTitle {
     color: #ffffff;
     margin-bottom: 3vh;
@@ -923,6 +943,27 @@
     width: 93% !important;
     border: 1px solid black;
     box-shadow: 2px 2px 7px 0px black;
+}
+
+@media screen and (min-width: 1700px) {
+    .myMap {
+        height: 68% !important;
+        width: 95% !important;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .myMap {
+        height: 65% !important;
+        width: 95% !important;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .myMap {
+        height: 57% !important;
+        width: 95% !important;
+    }
 }
 
 @media screen and (max-width: 767px) {

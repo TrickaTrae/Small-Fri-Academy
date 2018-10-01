@@ -18,7 +18,7 @@ class Contact extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <h1>Contact Us</h1>
+                            <h1 className="contact-title">Contact Us</h1>
                         </div>
                     </div>
                 </div>
