@@ -593,18 +593,137 @@
     padding-right: 2vw;
 }
 
+.infant-title {
+    font-size: 250%;
+    text-decoration: underline rgb(68, 63, 63);
+}
+
+@media screen and (min-width: 1600px) {
+    .infant-title {
+        font-size: 270%;
+    }
+}
+
 .Infant-About {
     text-align: center;
-    font-size: 110%;
+    font-size: 130%;
+}
+
+@media screen and (min-width: 1600px) {
+    .Infant-About {
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Infant-About {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Infant-About {
+        font-size: 100%;
+    }
+}
+
+.infant-list {
+    font-size: 140%;
+    padding-top: 5vh;
+}
+
+@media screen and (min-width: 1600px) {
+    .infant-list {
+        font-size: 150%;
+        padding-top: 6vh;
+    }
+}
+
+@media screen and (max-width: 1320px) {
+    .infant-list {
+        font-size: 130%;
+        padding-top: 2vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .infant-list {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .infant-list {
+        font-size: 110%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .infant-list {
+        font-size: 100%;
+        padding-top: 0;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .infant-list {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .infant-list {
+        font-size: 110%;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .infant-list {
+        font-size: 95%;
+    }
 }
 
 .Infant-Pic1 {
     display: block;
     margin: auto;
     height: auto;
-    max-width: 70%;
+    max-width: 75%;
     border: 1px solid black;
     border-radius: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .Infant-Pic1 {
+        max-width: 65%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Infant-Pic1 {
+        max-width: 70%;
+    }
+}
+
+.Infant-Pic2 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 90%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 767px) {
+    .Infant-Pic2 {
+        max-width: 100%;
+    }
+}
+
+.pic2row {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
 }
 /* infant page */
 

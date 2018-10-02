@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import NavBar from './NavBar'
 import '../Style.css'
 import InfantPic1 from '../Photos&Fonts/infant-1.jpg'
+import InfantPic2 from '../Photos&Fonts/infant-2.jpg'
 
 class Infants extends Component {
     render() {
@@ -15,7 +16,7 @@ class Infants extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1>Infants</h1>
+                                <h1 className="infant-title">Infants</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <p className="Infant-About">
@@ -33,7 +34,7 @@ class Infants extends Component {
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                 <img className="Infant-Pic1" src={InfantPic1} alt="Infant" />
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list2">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 infant-list">
                                 <ul>
                                     <li>Cognitive development</li>
                                     <ul>
@@ -51,6 +52,10 @@ class Infants extends Component {
                                     </li>
                                 </ul>
                             </div>
+                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 pic2row">
+                                <img className="Infant-Pic2" src={InfantPic2} alt="Infant" />
+                            </div>
+
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-column">

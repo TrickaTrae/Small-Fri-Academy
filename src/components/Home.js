@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from './NavBar'
 import '../Style.css'
-import IMG1 from '../Photos&Fonts/IMG1.jpg'
 import IMG2 from '../Photos&Fonts/IMG2.jpg'
 import IMG3 from '../Photos&Fonts/IMG3.jpg'
 import IMG4 from '../Photos&Fonts/IMG4.jpg'
+import IMG5 from '../Photos&Fonts/IMG5.jpg'
+import IMG6 from '../Photos&Fonts/IMG6.jpg'
 import Clock from '../Photos&Fonts/clock.png'
 import Ages from '../Photos&Fonts/Ages.jpg'
 import Sandwich from '../Photos&Fonts/sandwich.png'
@@ -43,20 +44,24 @@ class Home extends Component {
                                 <li data-target="#carouselSlides" data-slide-to="1"></li>
                                 <li data-target="#carouselSlides" data-slide-to="2"></li>
                                 <li data-target="#carouselSlides" data-slide-to="3"></li>
+                                <li data-target="#carouselSlides" data-slide-to="4"></li>
                             </ol>
                             {/* -----End of carousel indicators----- */}
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src={IMG1} alt="Pic1" />
+                                    <img className="d-block w-100" src={IMG6} alt="Pic1" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG2} alt="Pic2" />
+                                    <img className="d-block w-100" src={IMG3} alt="Pic2" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG3} alt="Pic3" />
+                                    <img className="d-block w-100" src={IMG2} alt="Pic3" />
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG4} alt="Pic4" />
+                                    <img className="d-block w-100" src={IMG5} alt="Pic4" />
+                                </div>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src={IMG4} alt="Pic5" />
                                 </div>
                             </div>
                             {/* ------Buttons for my carousel----- */}
