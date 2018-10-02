@@ -4,6 +4,7 @@ import NavBar from './NavBar'
 import '../Style.css'
 import Age2Pic1 from '../Photos&Fonts/2yr-1.jpg'
 import Age2Pic2 from '../Photos&Fonts/2yr-2.jpg'
+import Age2Pic3 from '../Photos&Fonts/2yr-3.jpg'
 
 class Age2 extends Component {
     render() {
@@ -16,7 +17,7 @@ class Age2 extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1>Two Year Olds</h1>
+                                <h1 className="age2-title">Two Year Olds</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <p className="Age2-About">
@@ -31,7 +32,7 @@ class Age2 extends Component {
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
                                 <img className="Age2-Pic1" src={Age2Pic1} alt="2 Year Old" />
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list2">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 age2-list1">
                                 <ul>
                                     <li>
                                         Small motor skills activities include experimenting with play doh, stringing beads, lacing activities, cutting paper with toddler safe
@@ -54,8 +55,13 @@ class Age2 extends Component {
                                 </ul>
                             </div>
                         </div>
-                        <div className="row row2">
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list2">
+
+                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <img className="Age2-Pic3" src={Age2Pic3} alt="2 Year Olds" />
+                        </div>
+
+                        <div className="row">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 age2-list2">
                                 <ul>
                                     <li>
                                         Drama includes games in which children get to use their imaginations and pretend to be different animals or characters. We also use dress
