@@ -231,7 +231,7 @@ class Home extends Component {
                                 <i className="fa fa-map-marker fa-lg myIcon"></i>131 West Woodrow Street, Salt Lake City<br />
                                 <i className="fa fa-phone-square myIcon"></i>801-266-0177<br />
                                 <i className="fa fa-envelope myIcon"></i>smallfrischools@msn.com<br />
-                                <a href="https://facebook.com" className="footer-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
+                                <a href="https://www.facebook.com/groups/smallfriacademy/" className="footer-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
                             </p>
                         </div>
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">

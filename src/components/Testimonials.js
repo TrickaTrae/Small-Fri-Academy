@@ -34,7 +34,7 @@ class Testimonials extends Component {
                                     - Sara
                                 </p>
                                 <p className="testimonial-left">
-                                    <span className="quoteLeft">“</span>My daughter loves coming to Dmall Fri Academy. She is excited to put on her shoes to go
+                                    <span className="quoteLeft">“</span>My daughter loves coming to Small Fri Academy. She is excited to put on her shoes to go
                                      to the day care in the morning. Even when she started at 5 months old the teachers made her happy and welcome, so drop
                                     off was never really a challenge for us. I originally chose Small Fri Academy for its location, close to the train
                                     station and my house, but now I'm so happy we chose it. They are extremely flexible with my child and let her take extra
