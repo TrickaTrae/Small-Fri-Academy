@@ -419,7 +419,7 @@
 }
 
 .footer-link:hover {
-    color: rgb(201, 193, 193);
+    color: #3B5998
 }
 
 .myIcon {
@@ -1119,6 +1119,17 @@
     padding-right: 2vw;
 }
 
+.kindergarten-title {
+    font-size: 250%;
+    text-decoration: underline rgb(68, 63, 63);
+}
+
+@media screen and (min-width: 1600px) {
+    .kindergarten-title {
+        font-size: 270%;
+    }
+}
+
 @media screen and (max-width: 455px) {
     .kindergarten-title {
         font-size: 8.5vw;
@@ -1127,7 +1138,25 @@
 
 .Kindergarten-About {
     text-align: center;
-    font-size: 109%;
+    font-size: 130%;
+}
+
+@media screen and (min-width: 1600px) {
+    .Pre-About {
+        font-size: 140%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .Pre-About {
+        font-size: 120%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Pre-About {
+        font-size: 100%;
+    }
 }
 
 .Kindergarten-Pic1 {
@@ -1148,8 +1177,73 @@
     border-radius: 2px;
 }
 
+@media screen and (max-width: 767px) {
+    .Kindergarten-Pic1 {
+        margin-bottom: 3vh;
+    }
+    .Kindergarten-Pic2 {
+        margin-top: 3vh;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Kindergarten-Pic1 {
+        max-width: 95%;
+    }
+    .Kindergarten-Pic2 {
+        max-width: 90%;
+    }
+}
+
 .list3 {
-    margin-top: 7vh;
+    margin-top: 5vh;
+    font-size: 120%;
+}
+
+@media screen and (min-width: 1600px) {
+    .list3 {
+        font-size: 150%;
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .list3 {
+        font-size: 120%;
+        margin-top: 2vh;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .list3 {
+        font-size: 110%;
+        margin-top: 1vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .list3 {
+        font-size: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .list3 {
+        font-size: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .list3 {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .list3 {
+        font-size: 98%;
+    }
 }
 /* Kindergarten */
 
@@ -1335,6 +1429,24 @@
     font-size: 175%;
 }
 
+@media screen and (min-width: 1700px) {
+    .contact-text {
+        font-size: 190%;
+    }
+}
+
+@media screen and (max-width: 1141px) {
+    .contact-text {
+        font-size: 165%;
+    }
+}
+
+@media screen and (max-width: 1079px) {
+    .contact-text {
+        font-size: 150%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .contact-text {
         text-align: center;
@@ -1353,6 +1465,10 @@
     color: #252323;
 }
 
+.contact-link:hover {
+    color: #3B5998;
+}
+
 .myMap {
     height: 61.5% !important;
     width: 93% !important;
@@ -1360,23 +1476,9 @@
     box-shadow: 2px 2px 7px 0px black;
 }
 
-@media screen and (min-width: 1700px) {
-    .myMap {
-        height: 68% !important;
-        width: 95% !important;
-    }
-}
-
 @media screen and (min-width: 1600px) {
     .myMap {
         height: 65% !important;
-        width: 95% !important;
-    }
-}
-
-@media screen and (max-width: 1150px) {
-    .myMap {
-        height: 57% !important;
         width: 95% !important;
     }
 }
