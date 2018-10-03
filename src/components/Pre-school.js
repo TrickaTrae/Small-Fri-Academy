@@ -16,7 +16,7 @@ class PreSchool extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1>Pre-School(Ages 3-4)</h1>
+                                <h1 className="pre-title">Pre-School(Ages 3-4)</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <p className="Pre-About">
