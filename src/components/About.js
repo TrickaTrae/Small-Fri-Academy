@@ -15,7 +15,7 @@ class About extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p className="about-title">About The Owner/Business</p>
+                                <p className="about-title2">About The Owner/Business</p>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <p className="about-par">
