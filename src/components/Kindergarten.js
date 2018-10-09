@@ -6,6 +6,11 @@ import KindergartenPic1 from '../Photos&Fonts/Kindergarten-1.jpg'
 import KindergertenPic2 from '../Photos&Fonts/Kindergarten-2.jpg'
 
 class Kindergarten extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div className="Kindergarten-Body">
@@ -57,7 +62,7 @@ class Kindergarten extends Component {
                                         ups and props to help enhance the growing imagination
                                     </li>
                                     <li>
-                                        Art We use an array of materials for the children to create fun paintings, and crafts to take home and share with the family.
+                                        Art we use an array of materials for the children to create fun paintings, and crafts to take home and share with the family.
                                     </li>
                                     <li>
                                         Music awareness includes several areas of learning:

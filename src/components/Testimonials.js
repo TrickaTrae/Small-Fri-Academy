@@ -3,6 +3,11 @@ import NavBar from './NavBar'
 import '../Style.css'
 
 class Testimonials extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div>

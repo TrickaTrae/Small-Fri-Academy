@@ -5,6 +5,11 @@ import Nutrition from '../Photos&Fonts/Nutrition-Table.png'
 import Building from '../Photos&Fonts/building.jpg'
 
 class About extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div className="about-body">

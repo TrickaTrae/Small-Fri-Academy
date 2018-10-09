@@ -6,6 +6,11 @@ import Age3Pic1 from '../Photos&Fonts/3yr-1.jpg'
 import Age3Pic2 from '../Photos&Fonts/3yr-2.jpg'
 
 class PreSchool extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div className="Pre-Body">
@@ -16,11 +21,11 @@ class PreSchool extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1 className="pre-title">Pre-School(Ages 3-4)</h1>
+                                <h1 className="pre-title">Pre-School(Ages 3&amp;4)</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <p className="Pre-About">
-                                    The three/four year olds love to learn and play. At this age social skills such as sharing, turn taking, and following
+                                    The three and four year olds love to learn and play. At this age social skills such as sharing, turn taking, and following
                                     routines are very important. Much care is taken to design a daily schedule that meets the social as well as the
                                     developmental needs of your pre-schooler. Every day the children will be engaged in numerous activities, which lead
                                     to developmental growth.
@@ -64,7 +69,7 @@ class PreSchool extends Component {
                                         ups and props to help enhance the growing imagination.
                                     </li>
                                     <li>
-                                        Art We use an array of materials for the children to create fun paintings, and crafts to take home and share with the family.
+                                        Art we use an array of materials for the children to create fun paintings, and crafts to take home and share with the family.
                                     </li>
                                     <li>
                                         Music awareness includes several areas of learning:

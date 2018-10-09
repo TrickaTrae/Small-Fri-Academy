@@ -15,6 +15,11 @@ import Logo from '../Photos&Fonts/Small-Fri-Logo-Transparent.png'
 
 
 class Home extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div>
@@ -129,7 +134,7 @@ class Home extends Component {
                             </div>
                             <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                                 <p className="director-text">
-                                    Small Fri Academy has been offering child care for 19 years. Our center Was created to be dedicated to the
+                                    Small Fri Academy has been offering child care for 19 years. Our center was created to be dedicated to the
                                     mental, social, emotional and physical growth of children. The utmost consideration and preparation is taken
                                     in planning a daily schedule that meets the needs of your child. Our center has a home like atmosphere and
                                     quality teachers who look forward to spending each day with your child. Our easy access to the I-15 freeway

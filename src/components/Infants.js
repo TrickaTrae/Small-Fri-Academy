@@ -6,6 +6,11 @@ import InfantPic1 from '../Photos&Fonts/infant-1.jpg'
 import InfantPic2 from '../Photos&Fonts/infant-2.jpg'
 
 class Infants extends Component {
+
+    componentDidMount() {
+        window.scrollTo(0, 0)
+    }
+
     render() {
         return (
             <div className="Infant-Body">
