@@ -72,5 +72,5 @@ class Contact extends Component {
     }
 }
 export default GoogleApiWrapper({
-    apiKey: ("AIzaSyCLWgKkRuEsTdaRLs06dC4alvxOOOBPOUY")
+    apiKey: (process.env.REACT_APP_GOOGLE_API_KEY)
 })(Contact)
