@@ -31,7 +31,7 @@ class Contact extends Component {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <form action="https://formspree.io/soccer4goals@hotmail.com" method="POST" className="myForm">
+                            <form action="https://formspree.io/smallfrischools@msn.com" method="POST" className="myForm">
                                 <p className="formTitle">Questions/Comments/Concerns</p>
                                 <input type="text" name="name" placeholder="*Name" required minLength="2" maxLength="40" className="myInput" /><br />
                                 <input type="email" name="email" placeholder="*Email" required minLength="6" maxLength="55" className="myInput" /><br />
