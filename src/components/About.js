@@ -73,12 +73,3 @@ class About extends Component {
     }
 }
 export default About;
-
-// Brain research has proven that the most influential growing period for the human brain is from birth to about five years of age.
-//                                 At this time, millions of brain cells are making connections based on experiences and lots of stimulation. "Children who are denied
-//                                 adequate stimulation and learning experiences have brains 40% smaller as adults."(Dr. Bruce Perry) At the age of five, the brain
-//                                 starts to get rid of the brain cells that were not stimulated and did not make connections in the earlier years of life. These
-//                                 cells can never be replaced again.<br/>
-//                                 The care a child recieves from birth to age five is more vital than people realize. Merely feeding a child and changing diapers
-//                                 is not enough! "40 percent of children in care, are in care that is destructive to their growth."(Dr Bruce Perry) Research shows
-//                                 that children who score the highest on tests are those who had been interacted with in early childhood.

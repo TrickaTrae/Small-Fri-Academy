@@ -23,9 +23,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-
                 <NavBar />
-
                 <main className="Home-Main">
 
                     {/* --------------------Home section-------------------- */}
@@ -84,7 +82,6 @@ class Home extends Component {
                     </section>
                     {/* --------------------End of Home section-------------------- */}
 
-
                     {/* -----------------About us section----------------- */}
                     <div className="container-fluid">
                         <div className="row">
@@ -122,7 +119,6 @@ class Home extends Component {
                     </div>
                     {/* --------------End of about us section-------------- */}
 
-
                     {/* ---------------director section----------------- */}
                     <div className="container-fluid director-container">
                         <div className="row director-row">
@@ -144,7 +140,6 @@ class Home extends Component {
                         </div>
                     </div>
                     {/* ------------end of director section-------------- */}
-
 
                     {/* ------------testimonial section------------ */}
                     <div className="container test-container">
@@ -224,7 +219,6 @@ class Home extends Component {
                     {/* -----------end of testimonial section---------- */}
                 </main>
 
-
                 {/* --------------footer-------------- */}
                 <div className="container-fluid footer-container">
                     <div className="row">
@@ -239,13 +233,17 @@ class Home extends Component {
                                 <a href="https://www.facebook.com/groups/smallfriacademy/" className="footer-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
                             </p>
                         </div>
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <p className="copyright">&#169;2018 Small Fri Academy - All rights reserved.</p>
+                    </div>
+                    <div className="row">
+                        <div className="col-6">
+                            <p className="copyright">&#169;2019 Small Fri Academy - All rights reserved.</p>
+                        </div>
+                        <div className="col-6 text-right">
+                            <a className="copyright builtby" href="https://www.traegerwinn.com/"><p>Small Fri Academy was built by Traeger Winn</p></a>
                         </div>
                     </div>
                 </div>
                 {/* ----------end of footer---------- */}
-
 
             </div>
         )
