@@ -40,7 +40,7 @@ class Home extends Component {
                             </div>
                         </div>
                         {/* ----------------------Bootstrap carousel--------------------- */}
-                        <div id="carouselSlides" className="carousel slide myCarousel" data-ride="carousel" data-interval="5000" data-wrap="true" >
+                        <div id="carouselSlides" className="carousel slide myCarousel" data-ride="carousel" data-interval="4000" data-wrap="true" >
                             {/* -----Carousel indicators----- */}
                             <ol className="carousel-indicators">
                                 <li data-target="#carouselSlides" data-slide-to="0" className="active"></li>

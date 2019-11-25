@@ -12,7 +12,7 @@ class NavBar extends Component {
                     <a className="navbar-brand" href="/">
                         Small Fri Academy
                     </a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" name="toggle navbar">
                         <span className="navbar-toggler-icon"></span>
                     </button>
 
