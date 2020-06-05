@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar'
-import '../Style.css'
-import InfantPic1 from '../Photos&Fonts/infant-1.jpg'
-import InfantPic2 from '../Photos&Fonts/infant-2.jpg'
+import './infants.css';
+import InfantPic1 from '../../assetts/infant-1.jpg';
+import InfantPic2 from '../../assetts/infant-2.jpg';
 
 class Infants extends Component {
 
@@ -14,11 +13,8 @@ class Infants extends Component {
     render() {
         return (
             <div className="Infant-Body">
-
-                <NavBar />
-
                 <main className="Infant-Main">
-                    <div className="container-fluid">
+                    <div className="container-fluid pt-5">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <h1 className="infant-title">Infants</h1>

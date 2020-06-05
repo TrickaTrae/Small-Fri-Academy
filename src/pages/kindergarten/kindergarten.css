@@ -1,0 +1,120 @@
+.Kindergarten-Body {
+    background-image: linear-gradient(to bottom, #f0920b, #f47b25, #f46537, #ef4f48, #e53b57);
+}
+.Kindergarten-Main {
+    background-color: #ffffff;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.kindergarten-title {
+    font-size: 250%;
+    text-decoration: underline rgb(68, 63, 63);
+    -webkit-animation: bounce-in-fwd 1.2s 0.4s both;
+    animation: bounce-in-fwd 1.2s 0.4s both;
+}
+@media screen and (min-width: 1600px) {
+    .kindergarten-title {
+        font-size: 270%;
+    }
+}
+@media screen and (max-width: 455px) {
+    .kindergarten-title {
+        font-size: 8.5vw;
+    }
+}
+.Kindergarten-About {
+    text-align: center;
+    font-size: 130%;
+}
+@media screen and (min-width: 1600px) {
+    .Pre-About {
+        font-size: 140%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .Pre-About {
+        font-size: 120%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Pre-About {
+        font-size: 100%;
+    }
+}
+.Kindergarten-Pic1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 85%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.Kindergarten-Pic2 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 68%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+@media screen and (max-width: 767px) {
+    .Kindergarten-Pic1 {
+        margin-bottom: 3vh;
+    }
+    .Kindergarten-Pic2 {
+        margin-top: 3vh;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Kindergarten-Pic1 {
+        max-width: 95%;
+    }
+    .Kindergarten-Pic2 {
+        max-width: 90%;
+    }
+}
+.list3 {
+    margin-top: 5vh;
+    font-size: 120%;
+}
+@media screen and (min-width: 1600px) {
+    .list3 {
+        font-size: 150%;
+        margin-top: 4vh;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .list3 {
+        font-size: 120%;
+        margin-top: 2vh;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .list3 {
+        font-size: 110%;
+        margin-top: 1vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .list3 {
+        font-size: 100%;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .list3 {
+        font-size: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .list3 {
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .list3 {
+        font-size: 98%;
+    }
+}

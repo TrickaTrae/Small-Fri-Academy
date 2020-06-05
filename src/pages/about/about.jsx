@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar'
-import '../Style.css'
-import Nutrition from '../Photos&Fonts/Nutrition-Table.png'
-import Building from '../Photos&Fonts/building.jpg'
+import './about.css';
+import Nutrition from '../../assetts/Nutrition-Table.png';
+import Building from '../../assetts/building.jpg';
 
 class About extends Component {
 
@@ -13,9 +12,6 @@ class About extends Component {
     render() {
         return (
             <div className="about-body">
-
-                <NavBar />
-
                 <main className="about-main">
                     <div className="container-fluid">
                         <div className="row">

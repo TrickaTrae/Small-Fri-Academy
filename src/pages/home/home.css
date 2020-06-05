@@ -1,0 +1,384 @@
+.Home-Main {
+    margin-bottom: 46vh;
+    background-color: #ffffff;
+}
+@media screen and (min-width: 1600px) {
+    .Home-Main {
+        margin-bottom: 50vh;
+    }
+  }
+  @media screen and (max-width: 1380px) {
+    .Home-Main {
+        margin-bottom: 43vh;
+    }
+  }
+@media screen and (max-width: 1000px) {
+    .Home-Main {
+        margin-bottom: 52vh;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .Home-Main {
+        margin-bottom: 85vh;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .Home-Main {
+        margin-bottom: 80vh;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .Home-Main {
+        margin-bottom: 75vh;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .Home-Main {
+        margin-bottom: 68vh;
+    }
+  }
+  @media screen and (max-width: 440px) {
+    .Home-Main {
+        margin-bottom: 62vh;
+    }
+  }
+  @media screen and (max-width: 393px) {
+    .Home-Main {
+        margin-bottom: 57vh;
+    }
+  }
+  @media screen and (max-width: 322px) {
+    .Home-Main {
+        margin-bottom: 65vh;
+    }
+  }
+.home-section {
+    background-image: linear-gradient(to top, #ef233c, #f13548, #f24353, #f3505e, #f45b69);
+    padding-top: 11vh;
+    padding-bottom: 6vh;
+    margin-bottom: 4vh;
+}
+@media screen and (min-width: 1600px) {
+    .home-section {
+        padding-top: 9vh;
+    }
+  }
+.home-quote {
+    text-align: center;
+    font-size: 180%;
+    margin-bottom: 4vh;
+    color: #ffffff;
+	-webkit-animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
+	animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
+}
+@media screen and (min-width: 1600px) {
+    .home-quote {
+        font-size: 220%;
+    }
+  }
+.quoteLeft {
+    font-size: 105%;
+    margin-right: 0.2%;
+}
+.quoteRight {
+    font-size: 105%;
+    margin-left: 0.2%;
+}
+
+/* carousel styling */
+.myCarousel {
+    border: 1px solid black;
+    border-radius: 1px;
+    display: block;
+    height: auto;
+    margin: auto;
+    width: 80%;
+    box-shadow: 4px 4px 15px 0px black;
+}
+@media screen and (max-width: 550px) {
+    .myCarousel {
+        width: 90%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .myCarousel {
+        width: 95%;
+    }
+  }
+/* carousel styling */
+/* home about section */
+.about-title {
+    text-align: center;
+    font-size: 220%;
+}
+@media screen and (min-width: 1600px) {
+    .about-title {
+        font-size: 250%;
+    }
+  }
+.clock,
+.ages,
+.sandwich {
+    float: left;
+    display: block;
+    height: auto;
+}
+.clock {
+    max-width: 35%;
+}
+.ages {
+    max-width: 42%;
+}
+.sandwich {
+    max-width: 35%;
+}
+@media screen and (max-width: 767px) {
+    .clock,
+    .ages,
+    .sandwich {
+        margin-left: 7vw;
+    }
+  }
+@media screen and (max-width: 500px) {
+    .clock,
+    .ages,
+    .sandwich {
+        margin-left: 3vw;
+    }
+  }
+@media screen and (max-width: 400px) {
+    .clock,
+    .ages,
+    .sandwich {
+        margin: auto;
+    }
+  }
+.about-column {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.center-column {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+}
+@media screen and (max-width: 390px) {
+    .aboutPar {
+        font-size: 3.8vw;
+    }
+  }
+@media screen and (max-width: 340px) {
+    .aboutPar {
+        margin-left: 38vw;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .center-column {
+        border: none;
+    }
+  }
+/* home about section */
+/* home director section */
+.director-container {
+    color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-image: url("../../assetts/myGeometry.png");
+    height: auto;
+    width: 100%;
+    padding: 8vh 6vw 8vh 6vw;
+}
+.director-row {
+    background-color: rgba(75, 19, 57, 0.8);
+    padding: 3% 3% 4% 3%;
+    border-radius: 15px;
+}
+.director-title {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+.director-photo {
+    display: block;
+    height: auto;
+    margin: auto;
+    max-width: 70%;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px 0px black;
+}
+@media screen and (max-width: 440px) {
+    .director-photo {
+        max-width: 90%;
+    }
+  }
+@media screen and (max-width: 385px) {
+    .director-photo {
+        max-width: 100%;
+    }
+  }
+.director-text {
+    text-align: center;
+    font-size: 120%;
+    margin-top: 4vh;
+}
+@media screen and (min-width: 1600px) {
+    .director-text {
+        font-size: 145%;
+        margin-top: 2vh;
+    }
+  }
+@media screen and (max-width: 440px) {
+    .director-text {
+        font-size: 110%;
+    }
+  }
+  @media screen and (max-width: 385px) {
+    .director-text {
+        font-size: 100%;
+    }
+  }
+/* home director section */
+/* home testimonials section */
+.testimonial-title {
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.testimonial-column {
+    text-align: center;
+}
+/* testimonial carousel */
+.test-container {
+    background-color: #5606a1;
+    color: white;
+    margin-top: 7vh;
+    padding-bottom: 5vh;
+    border-radius: 9px;
+    box-shadow: 2px 2px 9px 0px black;
+    min-width: 92%;
+}
+.myCarousel2 {
+    background-color: #440381;
+    display: block;
+    min-height: 40vh;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 4vh;
+    padding: 3vh 4vw 0vh 4vw;
+    border-radius: 12px;
+}
+@media screen and (min-width: 1600px) {
+    .myCarousel2 {
+        font-size: 120%;
+    }
+  }
+@media screen and (max-width: 930px) {
+    .myCarousel2 {
+        max-width: 85%;
+    }
+  }
+  @media screen and (max-width: 575px) {
+    .myCarousel2 {
+        max-width: 90%;
+    }
+  }
+/* testimonial carousel */
+/* home testimonials section */
+/* footer styling */
+.Logo {
+    display: block;
+    height: auto;
+    max-width: 32%;
+    float: right;
+}
+@media screen and (max-width: 1000px) {
+    .Logo {
+        max-width: 40%;
+        margin-top: 4.5vh;
+    }
+  }
+  @media screen and (max-width: 890px) {
+    .Logo {
+        max-width: 48%;
+        margin-top: 4vh;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .Logo {
+        max-width: 35%;
+        margin: auto;
+        float: none;
+    }
+    .footer-text {
+        text-align: center;
+    }
+  }
+.footer-text {
+    font-size: 150%;
+    margin-top: 5vh;
+    color: #ffffff;
+}
+@media screen and (min-width: 1600px) {
+    .footer-text {
+        font-size: 180%;
+        margin-top: 6vh;
+    }
+  }
+@media screen and (max-width: 502px) {
+    .footer-text {
+        font-size: 130%;
+    }
+}
+@media screen and (max-width: 438px) {
+    .footer-text {
+        font-size: 115%;
+    }
+}
+@media screen and (max-width: 390px) {
+    .footer-text {
+        font-size: 105%;
+    }
+}
+.footer-link {
+    color: #ffffff;
+}
+.footer-link:hover {
+    color: #3B5998
+}
+.myIcon {
+    margin-right: 1%;
+}
+.footer-container {
+    padding-top: 6vh;
+    background-image: radial-gradient(circle, #ee6773, #ef5966, #f04a59, #f0394b, #ef233c);
+    position: fixed;
+    bottom:0;
+    left:0;
+    z-index:-1;
+}
+.copyright {
+    font-size: 0.85vw;
+    color: rgba(0, 0, 0, 0.6);
+}
+.builtby:hover {
+    color: #fff;
+}
+@media screen and (max-width: 850px) {
+    .copyright {
+        font-size: 1vw;
+    }
+}
+@media screen and (max-width: 767px) {
+    .copyright {
+        text-align: center;
+        font-size: 1.5vw;
+    }
+}
+@media screen and (max-width: 420px) {
+    .copyright {
+        text-align: center;
+        font-size: 2.2vw;
+    }
+}
+/* footer styling */

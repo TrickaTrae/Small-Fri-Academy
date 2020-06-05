@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar'
-import '../Style.css'
+import './contact.css';
 import {
     Map,
     Marker,
@@ -17,10 +16,7 @@ class Contact extends Component {
     render() {
         return (
             <div>
-
-                <NavBar />
-
-                <div className="container-fluid">
+                <div className="container-fluid pt-5">
                     <div className="row">
                         <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <h1 className="contact-title">Contact Us</h1>

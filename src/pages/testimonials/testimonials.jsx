@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar'
-import '../Style.css'
+import './testimonials.css';
 
 class Testimonials extends Component {
 
@@ -11,10 +10,7 @@ class Testimonials extends Component {
     render() {
         return (
             <div>
-
-                <NavBar />
-
-                <main className="test-main">
+                <main className="test-main pt-5">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">

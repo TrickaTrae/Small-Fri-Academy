@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar'
-import '../Style.css'
-import Age3Pic1 from '../Photos&Fonts/3yr-1.jpg'
-import Age3Pic2 from '../Photos&Fonts/3yr-2.jpg'
+import './kindergarten.css';
+import KindergartenPic1 from '../../assetts/Kindergarten-1.jpg';
+import KindergertenPic2 from '../../assetts/Kindergarten-2.jpg';
 
-class PreSchool extends Component {
+class Kindergarten extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -13,60 +12,50 @@ class PreSchool extends Component {
 
     render() {
         return (
-            <div className="Pre-Body">
-
-                <NavBar />
-
-                <main className="Pre-Main">
+            <div className="Kindergarten-Body pt-5">
+                <main className="Kindergarten-Main">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1 className="pre-title">Pre-School(Ages 3&amp;4)</h1>
+                                <h1 className="kindergarten-title">Kindergarten/School Age</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p className="Pre-About">
-                                    The three and four year olds love to learn and play. At this age social skills such as sharing, turn taking, and following
-                                    routines are very important. Much care is taken to design a daily schedule that meets the social as well as the
-                                    developmental needs of your pre-schooler. Every day the children will be engaged in numerous activities, which lead
-                                    to developmental growth.
-                                    </p>
+                                <p className="Kindergarten-About">
+                                    We transport to neighborhood schools for Kindergarten. We offer Breakfast, Lunch and Snack on site to children, before
+                                    and after school. We know Kindergarteners are full of energy, and we create a curriculum which provides stimulating,
+                                    hands on activities, as well as active games to allow the children to use all that energy they have before and after
+                                    school. We offer summer time field trips to the kindergarteners when they are out of school.
+                                </p>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <img className="Pre-Pic1" src={Age3Pic1} alt="3 Year Olds" />
+                                <img className="Kindergarten-Pic1" src={KindergartenPic1} alt="School Age Kids" />
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list1">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list3">
                                 <ul>
                                     <li>
-                                        Small motor skills activities include experimenting with play doh, stringing beads, lacing activities, cutting paper with toddler safe
-                                        scissors, building with blocks and legos, etc.
-                                        </li>
-                                    <li>
                                         Large motor skills activities include games which teach hopping, jumping, skipping, galloping, somersaults, and basic tumbling.
-                                        </li>
-                                    <li>
-                                        Cognitive development includes a full preschool program for two three and four olds.
-                                        </li>
+                                </li>
                                     <li>
                                         Social skills include games in which children learn how to work as a team and in partners. Such games include working together to play
                                         parachute games, hide and seek, Red rover, London bridges, Ring around the Rosies, etc.
-                                        </li>
+                                </li>
                                     <li>
                                         Story time includes stories read from books, and stories told with puppets or props. Stories also include child participation; teach memory
                                         skills and sequencing techniques.
-                                    </li>
+                                </li>
                                 </ul>
                             </div>
                         </div>
                         <div className="row row2">
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list1">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list3">
                                 <ul>
                                     <li>
                                         Drama includes games in which children get to use their imaginations and pretend to be different animals or characters. We also use dress
-                                        ups and props to help enhance the growing imagination.
+                                        ups and props to help enhance the growing imagination
                                     </li>
                                     <li>
                                         Art we use an array of materials for the children to create fun paintings, and crafts to take home and share with the family.
@@ -79,10 +68,10 @@ class PreSchool extends Component {
                                             Singing finger play songs
                                         </li>
                                         <li>
-                                            Dancing and moving to various genres of music (classical, country, modern) using props such as ribbons, bells and scarves
+                                            Dancing and moving to various genres of music (classical, country, modern) using props such as ribbons, bells and scarves.
                                         </li>
                                         <li>
-                                            Games, which teach awareness of 3 and 4, count rhythms
+                                            Games, which teach awareness of 3 and 4, count rhythms.
                                         </li>
                                         <li>
                                             Creating musical instruments to march in a marching band
@@ -91,7 +80,7 @@ class PreSchool extends Component {
                                 </ul>
                             </div>
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <img className="Pre-Pic2" src={Age3Pic2} alt="3 Year Olds" />
+                                <img className="Kindergarten-Pic2" src={KindergertenPic2} alt="School Age Kids" />
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
                             </div>
@@ -102,8 +91,9 @@ class PreSchool extends Component {
                     </div>
                 </main>
 
+
             </div >
         )
     }
 }
-export default PreSchool;
+export default Kindergarten;

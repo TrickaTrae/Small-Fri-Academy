@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar'
-import '../Style.css'
-import Age2Pic1 from '../Photos&Fonts/2yr-1.jpg'
-import Age2Pic2 from '../Photos&Fonts/2yr-2.jpg'
-import Age2Pic3 from '../Photos&Fonts/2yr-3.jpg'
+import './pre-school.css';
+import Age3Pic1 from '../../assetts/3yr-1.jpg';
+import Age3Pic2 from '../../assetts/3yr-2.jpg';
 
-class Age2 extends Component {
+class PreSchool extends Component {
 
     componentDidMount() {
         window.scrollTo(0, 0)
@@ -14,30 +12,29 @@ class Age2 extends Component {
 
     render() {
         return (
-            <div className="Age2-Body">
-
-                <NavBar />
-
-                <main className="Age2-Main">
+            <div className="Pre-Body pt-5">
+                <main className="Pre-Main">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1 className="age2-title">Two Year Olds</h1>
+                                <h1 className="pre-title">Pre-School(Ages 3&amp;4)</h1>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p className="Age2-About">
-                                    We know two years olds are active, curious and creative. Our classroom has age appropriate materials to allow your two year old to safely learn
-                                    and explore. Every day the children will be engaged in numerous activities, which lend to developmental growth.
-                            </p>
+                                <p className="Pre-About">
+                                    The three and four year olds love to learn and play. At this age social skills such as sharing, turn taking, and following
+                                    routines are very important. Much care is taken to design a daily schedule that meets the social as well as the
+                                    developmental needs of your pre-schooler. Every day the children will be engaged in numerous activities, which lead
+                                    to developmental growth.
+                                    </p>
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <img className="Age2-Pic1" src={Age2Pic1} alt="2 Year Old" />
+                                <img className="Pre-Pic1" src={Age3Pic1} alt="3 Year Olds" />
                             </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 age2-list1">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list1">
                                 <ul>
                                     <li>
                                         Small motor skills activities include experimenting with play doh, stringing beads, lacing activities, cutting paper with toddler safe
@@ -60,13 +57,8 @@ class Age2 extends Component {
                                 </ul>
                             </div>
                         </div>
-
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <img className="Age2-Pic3" src={Age2Pic3} alt="2 Year Olds" />
-                        </div>
-
-                        <div className="row">
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 age2-list2">
+                        <div className="row row2">
+                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 list1">
                                 <ul>
                                     <li>
                                         Drama includes games in which children get to use their imaginations and pretend to be different animals or characters. We also use dress
@@ -95,7 +87,7 @@ class Age2 extends Component {
                                 </ul>
                             </div>
                             <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <img className="Age2-Pic2" src={Age2Pic2} alt="2 Year Olds" />
+                                <img className="Pre-Pic2" src={Age3Pic2} alt="3 Year Olds" />
                             </div>
                             <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
                             </div>
@@ -106,8 +98,8 @@ class Age2 extends Component {
                     </div>
                 </main>
 
-            </div>
+            </div >
         )
     }
 }
-export default Age2;
+export default PreSchool;

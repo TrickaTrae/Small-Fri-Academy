@@ -1,0 +1,131 @@
+.Pre-Body {
+    background-image: linear-gradient(to bottom, #d75151, #df446c, #de3d8c, #d144b0, #b454d3);
+}
+.Pre-Main {
+    background-color: #ffffff;
+    margin-right: 5.5%;
+    margin-left: 5.5%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.pre-title {
+    font-size: 250%;
+    text-decoration: underline rgb(68, 63, 63);
+    -webkit-animation: bounce-in-bottom 1.2s 0.4s both;
+    animation: bounce-in-bottom 1.2s 0.4s both;
+}
+@media screen and (min-width: 1600px) {
+    .pre-title {
+        font-size: 270%;
+    }
+}
+.Pre-About {
+    text-align: center;
+    font-size: 130%;
+}
+@media screen and (min-width: 1600px) {
+    .Pre-About {
+        font-size: 140%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .Pre-About {
+        font-size: 120%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Pre-About {
+        font-size: 100%;
+    }
+}
+.Pre-Pic1 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 70%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.list1 {
+    font-size: 120%;
+    margin-top: 4vh;
+}
+@media screen and (min-width: 1600px) {
+    .list1 {
+        font-size: 150%;
+        margin-top: 2vh;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .list1 {
+        font-size: 120%;
+        margin-top: 1vh;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .list1 {
+        font-size: 110%;
+        margin-top: 1vh;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .list1 {
+        font-size: 100%;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .list1 {
+        font-size: 90%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .list1 {
+        font-size: 80%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .list1 {
+        font-size: 98%;
+    }
+}
+.Pre-Pic2 {
+    display: block;
+    margin: auto;
+    height: auto;
+    max-width: 85%;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+@media screen and (max-width: 1400px) {
+    .Pre-Pic1 {
+        max-width: 75%;
+    }
+    .Pre-Pic2 {
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .Pre-Pic1 {
+        margin-bottom: 3vh;
+    }
+    .Pre-Pic2 {
+        margin-top: 3vh;
+    }
+}
+@media screen and (max-width: 450px) {
+    .Pre-Pic1 {
+        max-width: 90%;
+    }
+    .Pre-Pic2 {
+        max-width: 95%;
+    }
+}
+.row2 {
+    margin-top: 6vh;
+}
+@media screen and (max-width: 767px) {
+    .row2 {
+        margin-top: 0;
+    }
+}

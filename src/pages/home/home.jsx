@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavBar from './NavBar'
-import '../Style.css'
-import IMG2 from '../Photos&Fonts/IMG2.jpg'
-import IMG3 from '../Photos&Fonts/IMG3.jpg'
-import IMG4 from '../Photos&Fonts/IMG4.jpg'
-import IMG5 from '../Photos&Fonts/IMG5.jpg'
-import IMG6 from '../Photos&Fonts/IMG6.jpg'
-import Clock from '../Photos&Fonts/clock.png'
-import Ages from '../Photos&Fonts/Ages.jpg'
-import Sandwich from '../Photos&Fonts/sandwich.png'
-import Directors from '../Photos&Fonts/Directors.jpg'
-import Logo from '../Photos&Fonts/Small-Fri-Logo-Transparent.png'
+import './home.css';
+import IMG2 from '../../assetts/IMG2.jpg';
+import IMG3 from '../../assetts/IMG3.jpg';
+import IMG4 from '../../assetts/IMG4.jpg';
+import IMG5 from '../../assetts/IMG5.jpg';
+import IMG6 from '../../assetts/IMG6.jpg';
+import Clock from '../../assetts/clock.png';
+import Ages from '../../assetts/Ages.jpg';
+import Sandwich from '../../assetts/sandwich.png';
+import Directors from '../../assetts/Directors.jpg';
+import Logo from '../../assetts/Small-Fri-Logo-Transparent.png';
 
 
 class Home extends Component {
@@ -23,7 +22,6 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <NavBar />
                 <main className="Home-Main">
 
                     {/* --------------------Home section-------------------- */}
