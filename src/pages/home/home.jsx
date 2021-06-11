@@ -13,8 +13,6 @@ import Directors from '../../assetts/Directors.jpg';
 import Logo from '../../assetts/Small-Fri-Logo-Transparent.png';
 
 
-// first things first, update node/npm/dependencies
-// update bootstrap
 // move images to amazon db and pull from there
 
 class Home extends Component {
