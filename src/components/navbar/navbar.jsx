@@ -6,9 +6,7 @@ class NavBar extends Component {
     render() {
         return (
             <div>
-
-                {/* nav bar */}
-                <nav className="navbar navbar-expand-lg navbar-dark bg-dark myNav">
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                     <a className="navbar-brand" href="/">
                         Small Fri Academy
                     </a>
@@ -28,8 +26,6 @@ class NavBar extends Component {
                         </div>
                     </div>
                 </nav>
-                {/* nav bar */}
-
             </div>
         )
     }

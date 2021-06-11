@@ -21,6 +21,106 @@ class Home extends Component {
         window.scrollTo(0, 0)
     }
 
+    carousel = () => {
+        return (
+            <div id="carouselSlides" className="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div className="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselSlides" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+
+                <div className="carousel-inner">
+                    <div className="carousel-item active" data-bs-interval="4000">
+                        <img className="d-block w-100" src={IMG6} alt="Pic1" />
+                    </div>
+                     <div className="carousel-item" data-bs-interval="4000">
+                        <img className="d-block w-100" src={IMG3} alt="Pic2" />
+                    </div>
+                     <div className="carousel-item" data-bs-interval="4000">
+                        <img className="d-block w-100" src={IMG2} alt="Pic3" />
+                    </div>
+                     <div className="carousel-item" data-bs-interval="4000">
+                        <img className="d-block w-100" src={IMG5} alt="Pic4" />
+                    </div>
+                     <div className="carousel-item" data-bs-interval="4000">
+                        <img className="d-block w-100" src={IMG4} alt="Pic5" />
+                     </div>
+                </div>
+
+                <button className="carousel-control-prev" type="button" data-bs-target="#carouselSlides" data-bs-slide="prev">
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                </button>
+                <button className="carousel-control-next" type="button" data-bs-target="#carouselSlides" data-bs-slide="next">
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                </button>
+            </div>
+        )
+    }
+
+    about = () => {
+        return (
+            <div className="container py-3">
+                <div className="row py-5">
+                    <div className="col-12 text-center">
+                        <h1 className="display-2">About Us</h1>
+                    </div>
+                </div>
+
+                <div className="row py-3">
+                    <div className="col-4 text-end">
+                        <h2>Hours of Operation</h2>
+                        <h4>
+                            Monday-Friday:<br/>
+                            7:00am-6:00pm
+                        </h4>
+                    </div>
+                    <div className="col-8">
+                        <img className="clock" src={Clock} alt="Clock" />
+                    </div>
+                </div>
+
+                <div className="row py-3">
+                    <div className="col-8">
+                        <img className="ages" src={Ages} alt="Ages" />
+                    </div>
+                    <div className="col-4">
+                        <h2>Age Care Range</h2>
+                        <h4>
+                            We care for children from<br/>
+                            12 weeks to 9 years old.
+                        </h4>
+                    </div>
+                </div>
+
+                <div className="row py-3">
+                    <div className="col-4 text-end">
+                        <h2>Meals We Provide</h2>
+                        <h4>
+                            We provide breakfast, lunch, and<br/>
+                            snacks through-out the day.
+                        </h4>
+                    </div>
+                    <div className="col-8">
+                        <img className="sandwich" src={Sandwich} alt="Sandwich" />
+                    </div>
+                </div>
+
+                <div className="row py-5">
+                    <div className="col-12 text-center">
+                        <Link to="/About">
+                            <button className="btn btn-outline-dark btn-lg w-25 py-3">Learn More</button>
+                        </Link>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+
     render() {
         return (
             <div>
@@ -28,7 +128,7 @@ class Home extends Component {
 
                     {/* --------------------Home section-------------------- */}
                     <section className="home-section">
-                        <div className="container-fluid">
+                        {/* <div className="container-fluid">
                             <div className="row">
                                 <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <p className="home-quote">
@@ -38,86 +138,12 @@ class Home extends Component {
                                     </p>
                                 </div>
                             </div>
-                        </div>
-                        {/* ----------------------Bootstrap carousel--------------------- */}
-                        <div id="carouselSlides" className="carousel slide myCarousel" data-ride="carousel" data-interval="5000" data-wrap="true" >
-                            {/* -----Carousel indicators----- */}
-                            <ol className="carousel-indicators">
-                                <li data-target="#carouselSlides" data-slide-to="0" className="active"></li>
-                                <li data-target="#carouselSlides" data-slide-to="1"></li>
-                                <li data-target="#carouselSlides" data-slide-to="2"></li>
-                                <li data-target="#carouselSlides" data-slide-to="3"></li>
-                                <li data-target="#carouselSlides" data-slide-to="4"></li>
-                            </ol>
-                            {/* -----End of carousel indicators----- */}
-                            <div className="carousel-inner">
-                                <div className="carousel-item active">
-                                    <img className="d-block w-100" src={IMG6} alt="Pic1" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG3} alt="Pic2" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG2} alt="Pic3" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG5} alt="Pic4" />
-                                </div>
-                                <div className="carousel-item">
-                                    <img className="d-block w-100" src={IMG4} alt="Pic5" />
-                                </div>
-                            </div>
-                            {/* ------Buttons for my carousel----- */}
-                            <a className="carousel-control-prev" href="#carouselSlides" role="button" data-slide="prev">
-                                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Previous</span>
-                            </a>
-                            <a className="carousel-control-next" href="#carouselSlides" role="button" data-slide="next">
-                                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span className="sr-only">Next</span>
-                            </a>
-                            {/* ------End of buttons for my carousel------ */}
-                        </div>
-                        {/* ----------------------------End of Bootstrap carousel------------------------------ */}
+                        </div> */}
                     </section>
-                    {/* --------------------End of Home section-------------------- */}
 
-                    {/* -----------------About us section----------------- */}
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h2 className="about-title">About Us</h2>
-                            </div>
-                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column">
-                                <img className="clock" src={Clock} alt="Clock" />
-                                <h4>Hours of Operation</h4><br />
-                                <p className="aboutPar">
-                                    Monday-Friday:<br />
-                                    7:00am-6:00pm
-                            </p>
-                            </div>
-                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column center-column">
-                                <img className="ages" src={Ages} alt="Ages" />
-                                <h4>Age Care Range</h4><br />
-                                <p className="aboutPar">
-                                    We care for children from<br />
-                                    12 weeks to 9 years old.
-                            </p>
-                            </div>
-                            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 about-column">
-                                <img className="sandwich" src={Sandwich} alt="Sandwich" />
-                                <h4>Meals We Provide</h4><br />
-                                <p className="aboutPar">
-                                    We provide breakfast, lunch, and<br />
-                                    snacks through-out the day.
-                            </p>
-                            </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 about-column">
-                                <Link to="/About"><button className="about-button">More Info &#187;</button></Link>
-                            </div>
-                        </div>
-                    </div>
-                    {/* --------------End of about us section-------------- */}
+                    {this.carousel()}
+
+                    {this.about()}
 
                     {/* ---------------director section----------------- */}
                     <div className="container-fluid director-container">
