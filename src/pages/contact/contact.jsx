@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './contact.css';
-import {
-    Map,
-    Marker,
-    GoogleApiWrapper
-} from 'google-maps-react';
+// import {
+//     Map,
+//     Marker,
+//     GoogleApiWrapper
+// } from 'google-maps-react';
 
 
 class Contact extends Component {
@@ -45,7 +45,7 @@ class Contact extends Component {
                                 <a href="https://www.facebook.com/groups/smallfriacademy/" className="contact-link"><i className="fa fa-facebook-square myIcon"></i>Facebook</a>
 
                             </p>
-                            <Map className="myMap"
+                            {/* <Map className="myMap"
 
                                 google={this.props.google}
                                 initialCenter={{
@@ -58,7 +58,7 @@ class Contact extends Component {
                                     title={'Small Fri Academy'}
                                     position={{ lat: 40.6537629, lng: -111.8947955 }}
                                 />
-                            </Map>
+                            </Map> */}
                         </div>
                     </div>
                 </div>
@@ -67,6 +67,8 @@ class Contact extends Component {
         )
     }
 }
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyCLWgKkRuEsTdaRLs06dC4alvxOOOBPOUY")
-})(Contact)
+// export default GoogleApiWrapper({
+//     apiKey: ("AIzaSyCLWgKkRuEsTdaRLs06dC4alvxOOOBPOUY")
+// })(Contact)
+
+export default Contact;
