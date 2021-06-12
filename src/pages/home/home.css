@@ -1,199 +1,68 @@
-/* .Home-Main {
-    margin-bottom: 46vh;
-    background-color: #ffffff;
-}
-@media screen and (min-width: 1600px) {
-    .Home-Main {
-        margin-bottom: 50vh;
-    }
-  }
-  @media screen and (max-width: 1380px) {
-    .Home-Main {
-        margin-bottom: 43vh;
-    }
-  }
-@media screen and (max-width: 1000px) {
-    .Home-Main {
-        margin-bottom: 52vh;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .Home-Main {
-        margin-bottom: 85vh;
-    }
-  }
-  @media screen and (max-width: 700px) {
-    .Home-Main {
-        margin-bottom: 80vh;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .Home-Main {
-        margin-bottom: 75vh;
-    }
-  }
-  @media screen and (max-width: 500px) {
-    .Home-Main {
-        margin-bottom: 68vh;
-    }
-  }
-  @media screen and (max-width: 440px) {
-    .Home-Main {
-        margin-bottom: 62vh;
-    }
-  }
-  @media screen and (max-width: 393px) {
-    .Home-Main {
-        margin-bottom: 57vh;
-    }
-  }
-  @media screen and (max-width: 322px) {
-    .Home-Main {
-        margin-bottom: 65vh;
-    }
-  }
-.home-section {
-    background-image: linear-gradient(to top, #ef233c, #f13548, #f24353, #f3505e, #f45b69);
-    padding-top: 11vh;
-    padding-bottom: 6vh;
-    margin-bottom: 4vh;
-}
-@media screen and (min-width: 1600px) {
-    .home-section {
-        padding-top: 9vh;
-    }
-  }
-.home-quote {
-    text-align: center;
-    font-size: 180%;
-    margin-bottom: 4vh;
-    color: #ffffff;
-	-webkit-animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
-	animation: scale-in-center 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.4s both;
-}
-@media screen and (min-width: 1600px) {
-    .home-quote {
-        font-size: 220%;
-    }
-  }
-.quoteLeft {
-    font-size: 105%;
-    margin-right: 0.2%;
-}
-.quoteRight {
-    font-size: 105%;
-    margin-left: 0.2%;
-} */
 
 
 
-/* home about section */
+
 
 .clock {
-    max-width: 11vw;
+    max-width: 25%;
     float: left;
     display: block;
     height: auto;
 }
 .ages {
-    max-width: 13vw;
+    max-width: 25%;
     float: right;
     display: block;
     height: auto;
 }
 .sandwich {
-    max-width: 12vw;
+    max-width: 25%;
     float: left;
     display: block;
     height: auto;
 }
-/* @media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
     .clock,
     .ages,
     .sandwich {
-        margin-left: 7vw;
+        max-width: 40%;
     }
-  }
-@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 768px) {
     .clock,
     .ages,
     .sandwich {
-        margin-left: 3vw;
+        max-width: 70%;
     }
-  }
-@media screen and (max-width: 400px) {
-    .clock,
-    .ages,
-    .sandwich {
-        margin: auto;
-    }
-  } */
-
-/* home about section */
+}
 
 
 
-/* home director section */
-.director-container {
-    color: #ffffff;
+
+
+.motto-container {
     background-attachment: fixed;
     background-position: center;
     background-repeat: repeat;
     background-image: url("../../assetts/myGeometry.png");
     height: auto;
     width: 100%;
-    padding: 8vh 6vw 8vh 6vw;
 }
-.director-row {
-    background-color: rgba(75, 19, 57, 0.8);
-    padding: 3% 3% 4% 3%;
-    border-radius: 15px;
+.motto-row {
+    background-color: rgba(173, 17, 124, 0.9);
 }
-.director-title {
-    text-align: center;
-    margin-bottom: 5vh;
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .management-message {
+        text-align: center;
+        padding-bottom: 4vh;
+    }
 }
-.director-photo {
-    display: block;
-    height: auto;
-    margin: auto;
-    max-width: 70%;
-    border: 1px solid black;
-    border-radius: 3px;
-    box-shadow: 2px 2px 7px 0px black;
-}
-@media screen and (max-width: 440px) {
-    .director-photo {
-        max-width: 90%;
-    }
-  }
-@media screen and (max-width: 385px) {
-    .director-photo {
-        max-width: 100%;
-    }
-  }
-.director-text {
-    text-align: center;
-    font-size: 120%;
-    margin-top: 4vh;
-}
-@media screen and (min-width: 1600px) {
-    .director-text {
-        font-size: 145%;
-        margin-top: 2vh;
-    }
-  }
-@media screen and (max-width: 440px) {
-    .director-text {
-        font-size: 110%;
-    }
-  }
-  @media screen and (max-width: 385px) {
-    .director-text {
-        font-size: 100%;
-    }
-  }
-/* home director section */
+
 
 
 
