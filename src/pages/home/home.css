@@ -4,12 +4,14 @@
     display: block;
     height: auto;
 }
+
 .ages {
     max-width: 25%;
     float: right;
     display: block;
     height: auto;
 }
+
 .sandwich {
     max-width: 25%;
     float: left;
@@ -17,18 +19,14 @@
     height: auto;
 }
 
-.motto-container {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-image: url("../../assetts/myGeometry.png");
-    height: auto;
-    width: 100%;
+#motto {
+    background-color: rgb(185, 29, 136);
 }
-.motto-row {
-    /* background-color: rgba(173, 17, 124, 0.9); */
-    /* background-color: rgba(255, 50, 74, 0.8); */
-    background-color: rgba(185, 29, 136, 0.8);
+
+.motto-logo {
+    max-width: 10vw;
+    display: block;
+    height: auto;
 }
 
 @media screen and (max-width: 992px) {
@@ -48,5 +46,14 @@
     .ages,
     .sandwich {
         max-width: 70%;
+    }
+    .motto-logo {
+        max-width: 15vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .motto-logo {
+        max-width: 25vw;
     }
 }
