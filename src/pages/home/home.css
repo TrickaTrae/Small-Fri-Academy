@@ -1,8 +1,4 @@
-
-
-
-
-
+/* about */
 .clock {
     max-width: 25%;
     float: left;
@@ -36,10 +32,7 @@
     }
 }
 
-
-
-
-
+/* motto */
 .motto-container {
     background-attachment: fixed;
     background-position: center;
@@ -49,168 +42,15 @@
     width: 100%;
 }
 .motto-row {
-    background-color: rgba(173, 17, 124, 0.9);
+    /* background-color: rgba(173, 17, 124, 0.9); */
+    /* background-color: rgba(255, 50, 74, 0.8); */
+    background-color: rgba(185, 29, 136, 0.8);
 }
 
-
-
-
-
+/* management */
 @media screen and (max-width: 992px) {
     .management-message {
         text-align: center;
         padding-bottom: 4vh;
     }
 }
-
-
-
-
-
-/* home testimonials section */
-.testimonial-title {
-    text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-}
-.testimonial-column {
-    text-align: center;
-}
-/* testimonial carousel */
-.test-container {
-    background-color: #5606a1;
-    color: white;
-    margin-top: 7vh;
-    padding-bottom: 5vh;
-    border-radius: 9px;
-    box-shadow: 2px 2px 9px 0px black;
-    min-width: 92%;
-}
-.myCarousel2 {
-    background-color: #440381;
-    display: block;
-    min-height: 40vh;
-    max-width: 70%;
-    margin: auto;
-    margin-bottom: 4vh;
-    padding: 3vh 4vw 0vh 4vw;
-    border-radius: 12px;
-}
-@media screen and (min-width: 1600px) {
-    .myCarousel2 {
-        font-size: 120%;
-    }
-  }
-@media screen and (max-width: 930px) {
-    .myCarousel2 {
-        max-width: 85%;
-    }
-  }
-  @media screen and (max-width: 575px) {
-    .myCarousel2 {
-        max-width: 90%;
-    }
-  }
-/* testimonial carousel */
-/* home testimonials section */
-
-
-
-
-/* footer styling */
-.Logo {
-    display: block;
-    height: auto;
-    max-width: 32%;
-    float: right;
-}
-/* @media screen and (max-width: 1000px) {
-    .Logo {
-        max-width: 40%;
-        margin-top: 4.5vh;
-    }
-  }
-  @media screen and (max-width: 890px) {
-    .Logo {
-        max-width: 48%;
-        margin-top: 4vh;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .Logo {
-        max-width: 35%;
-        margin: auto;
-        float: none;
-    }
-    .footer-text {
-        text-align: center;
-    }
-  } */
-/* .footer-text {
-    font-size: 150%;
-    margin-top: 5vh;
-    color: #ffffff;
-}
-@media screen and (min-width: 1600px) {
-    .footer-text {
-        font-size: 180%;
-        margin-top: 6vh;
-    }
-  }
-@media screen and (max-width: 502px) {
-    .footer-text {
-        font-size: 130%;
-    }
-}
-@media screen and (max-width: 438px) {
-    .footer-text {
-        font-size: 115%;
-    }
-}
-@media screen and (max-width: 390px) {
-    .footer-text {
-        font-size: 105%;
-    }
-}
-.footer-link {
-    color: #ffffff;
-}
-.footer-link:hover {
-    color: #3B5998
-}
-.myIcon {
-    margin-right: 1%;
-} */
-.footer-container {
-    padding-top: 6vh;
-    background-image: radial-gradient(circle, #ee6773, #ef5966, #f04a59, #f0394b, #ef233c);
-    /* position: fixed; */
-    /* bottom:0; */
-    /* left:0; */
-    /* z-index:-1; */
-}
-.copyright {
-    font-size: 0.85vw;
-    color: rgba(0, 0, 0, 0.6);
-}
-.builtby:hover {
-    color: #fff;
-}
-@media screen and (max-width: 850px) {
-    .copyright {
-        font-size: 1vw;
-    }
-}
-@media screen and (max-width: 767px) {
-    .copyright {
-        text-align: center;
-        font-size: 1.5vw;
-    }
-}
-@media screen and (max-width: 420px) {
-    .copyright {
-        text-align: center;
-        font-size: 2.2vw;
-    }
-}
-/* footer styling */

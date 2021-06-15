@@ -21,7 +21,6 @@ class NavBar extends Component {
                             <Link to="/2-year-olds" className="nav-item nav-link">2 year olds</Link>
                             <Link to="/pre-school" className="nav-item nav-link">Pre-School</Link>
                             <Link to="/kindergarten" className="nav-item nav-link">Kindergarten</Link>
-                            <Link to="/testimonials" className="nav-item nav-link">Testimonials</Link>
                             <Link to="/contact" className="nav-item nav-link">Contact</Link>
                         </div>
                     </div>

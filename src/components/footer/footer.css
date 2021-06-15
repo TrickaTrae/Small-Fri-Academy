@@ -1,0 +1,67 @@
+#footer {
+    /* background-color: #fa4359; */
+    /* background-color: #ef233c; */
+    /* background-color: #ff465b; */
+    background-color: rgb(185, 29, 136);
+}
+
+.carousel-row {
+    min-height: 30vh;
+}
+
+.carousel-item {
+    padding-right: 4vw;
+    padding-left: 4vw;
+}
+
+.logo {
+    max-width: 35%;
+    display: block;
+    height: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .carousel-row {
+        min-height: 35vh;
+    }
+    .carousel-item {
+        padding-right: 2vw;
+        padding-left: 2vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-row {
+        min-height: 40vh;
+    }
+    .carousel-item {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .logo {
+        max-width: 25%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-row {
+        min-height: 45vh;
+    }
+    .carousel-inner {
+        padding-right: 0.5vw !important;
+        padding-left: 0.5vw !important;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .carousel-row {
+        min-height: 55vh;
+    }
+    .carousel-inner {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .logo {
+        max-width: 35%;
+    }
+}
