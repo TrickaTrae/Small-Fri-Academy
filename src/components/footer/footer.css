@@ -9,7 +9,8 @@
     min-height: 30vh;
 }
 
-.carousel-item {
+.carousel-item-testimonials {
+    padding-top: 5vh;
     padding-right: 4vw;
     padding-left: 4vw;
 }
@@ -22,9 +23,9 @@
 
 @media screen and (max-width: 992px) {
     .carousel-row {
-        min-height: 35vh;
+        min-height: 40vh;
     }
-    .carousel-item {
+    .carousel-item-testimonials {
         padding-right: 2vw;
         padding-left: 2vw;
     }
@@ -32,9 +33,9 @@
 
 @media screen and (max-width: 768px) {
     .carousel-row {
-        min-height: 40vh;
+        min-height: 50vh;
     }
-    .carousel-item {
+    .carousel-item-testimonials {
         padding-right: 0;
         padding-left: 0;
     }
@@ -45,9 +46,9 @@
 
 @media screen and (max-width: 576px) {
     .carousel-row {
-        min-height: 45vh;
+        min-height: 55vh;
     }
-    .carousel-inner {
+    .carousel-inner-testimonials {
         padding-right: 0.5vw !important;
         padding-left: 0.5vw !important;
     }
@@ -55,9 +56,9 @@
 
 @media screen and (max-width: 450px) {
     .carousel-row {
-        min-height: 55vh;
+        min-height: 65vh;
     }
-    .carousel-inner {
+    .carousel-inner-testimonials {
         padding-right: 0 !important;
         padding-left: 0 !important;
     }

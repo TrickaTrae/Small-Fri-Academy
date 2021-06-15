@@ -14,10 +14,10 @@ class Footer extends Component {
                     </div>
                 </div>
 
-                <div className="row carousel-row d-flex align-items-center justify-content-center">
+                <div className="row carousel-row">
                     <div id="footerCarousel" className="carousel slide px-5" data-bs-ride="carousel">
-                        <div className="carousel-inner px-5">
-                            <div className="carousel-item active">
+                        <div className="carousel-inner carousel-inner-testimonials px-5">
+                            <div className="carousel-item active carousel-item-testimonials">
                                 <span className="text-white">
                                     “Small Fri Academy has been the best choice we have made for our
                                     son. He loves being there, the teachers and directors are amazing and very helpful. I love when
@@ -28,7 +28,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Kathryn H.</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “My wife and I have 5 children, all of which have attended
                                     Small Fri Academy. They all started as infants in the Wiggle Frogs room, and stayed until 1st
@@ -42,7 +42,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Jax and Shannon S.</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “I am a new mother, and started my 8 month old son at Small Fri
                                     Academy 4 months ago. I was terrified to leave my baby at a child care facility, and looked at 9
@@ -57,7 +57,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Leslie K.</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “We love Small Fri Academy! We are so happy we found a
                                     daycare/preschool where we feel comfortable leaving our daughter,  she is happy and well taken
@@ -68,7 +68,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Amonrat H.</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “My daughter gets up every morning and loves going to school at Small Fri. All
                                     the teachers are so loving and caring. We especially love her teacher, Veronica. It is so nice to be able to
@@ -77,7 +77,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Nicolette</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “The teachers at Small Fri have taught my children so much. When I pick them up
                                     each day, they don't want to go home. They feel so comfortable at Small Fri. Thanks for all the great
@@ -86,7 +86,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Brad B.</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “My daughter loves coming to Small Fri Academy. She is excited to put on her shoes to go
                                     to the day care in the morning. Even when she started at 5 months old the teachers made her happy and welcome, so drop
@@ -99,7 +99,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Emily</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “We  have been taking our son to Small Fri for 3 years. I truly appreciate the
                                     job they do every day. Thank you so much for taking such good care of our son.”
@@ -107,7 +107,7 @@ class Footer extends Component {
                                 <br/>
                                 <span className="fw-bold text-white">- Sara</span>
                             </div>
-                            <div className="carousel-item">
+                            <div className="carousel-item carousel-item-testimonials">
                                 <span className="text-white">
                                     “We are grateful we found Small Fri Academy. It is nice to have someone you trust
                                     transporting your child to and from elementary school and not worrying about it while at work. The teachers are

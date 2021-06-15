@@ -1,0 +1,9 @@
+.navbar-brand {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.nav-logo {
+    height: 10vh;
+    width: auto;
+}
