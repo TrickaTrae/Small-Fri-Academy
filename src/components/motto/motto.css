@@ -1,0 +1,21 @@
+#motto {
+    background-color: rgb(185, 29, 136);
+}
+
+.motto-logo {
+    max-width: 10vw;
+    display: block;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .motto-logo {
+        max-width: 15vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .motto-logo {
+        max-width: 25vw;
+    }
+}

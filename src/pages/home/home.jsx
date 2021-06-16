@@ -4,7 +4,7 @@ import './home.css';
 import Clock from '../../assetts/clock.png';
 import Ages from '../../assetts/Ages.jpg';
 import Sandwich from '../../assetts/sandwich.png';
-import Logo from '../../assetts/Small-Fri-Logo-Transparent.png';
+import Motto from '../../components/motto/motto';
 
 class Home extends Component {
 
@@ -114,28 +114,6 @@ class Home extends Component {
         )
     }
 
-    motto = () => {
-        return (
-            <div id="motto">
-                <div className="container-fluid py-5">
-                    <div className="row py-2">
-                        <div className="col-12 d-flex align-items-center justify-content-center">
-                            <img className="motto-logo" src={Logo} alt="Small Fri Logo" />
-                        </div>
-                    </div>
-
-                    <div className="row py-3">
-                        <div className="col-12 pb-5">
-                            <h1 className="m-0 text-white display-4 fw-normal text-center">
-                                “Dedicated to the Mental, Social, Emotional, and Physical Growth of Children”
-                            </h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        )
-    }
-
     management = () => {
         return (
             <div className="container pt-4 pb-5">
@@ -168,7 +146,7 @@ class Home extends Component {
             <div id="home">
                 {this.carousel()}
                 {this.about()}
-                {this.motto()}
+                <Motto/>
                 {this.management()}
             </div>
         )

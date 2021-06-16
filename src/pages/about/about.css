@@ -1,100 +1,12 @@
-.about-body {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: repeat;
-    background-image: url("../../assetts/myGeometry.png");
-}
-.about-main {
-    background-color: rgba(75, 19, 57, 0.9);
-    margin-right: 5.5%;
-    margin-left: 5.5%;
-    padding-top: 11vh;
-    padding-bottom: 8vh;
-    color: #ffffff;
-}
-.about-title2 {
-    text-align: center;
-    font-size: 250%;
-    margin-bottom: 4vh;
-    -webkit-animation: bounce-in-top 1.5s 0.4s both;
-    animation: bounce-in-top 1.5s 0.4s both;
-}
-.about-subTitle {
-    font-size: 250%;
-    text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-}
-@media screen and (max-width: 420px) {
-    .about-title2,
-    .about-subTitle {
-        font-size: 180%;
-    }
-}
-@media screen and (min-width: 1600px) {
-    .about-title2,
-    .about-subTitle {
-        font-size: 270%;
-    }
-}
-.about-par {
-    text-align: center;
-    margin-bottom: 5vh;
-    padding-right: 4.5vw;
-    padding-left: 4.5vw;
-}
-.buildingPic {
+.building {
     display: block;
     height: auto;
-    width: 90%;
-    border: 1px solid black;
-    margin: auto;
-    box-shadow: 2px 2px 5px 0px black;
-    border-radius: 5px;
+    width: 100%;
 }
-@media screen and (max-width: 420px) {
-    .buildingPic {
-        width: 100%;
-    }
-}
-.employee-par {
-    text-align: center;
-    padding-right: 4.5vw;
-    padding-left: 4.5vw;
-}
-.nutrition-par {
-    text-align: center;
-    padding-right: 4.5vw;
-    padding-left: 4.5vw;
-    margin-bottom: 3vh;
-}
-@media screen and (max-width: 420px) {
-    .about-par,
-    .employee-par,
-    .nutrition-par {
-        font-size: 90%;
-    }
-}
-@media screen and (min-width: 1600px) {
-    .about-par,
-    .employee-par,
-    .nutrition-par {
-        font-size: 125%;
-    }
-}
-.Nutrition {
+
+.nutrition {
     display: block;
     height: auto;
     margin: auto;
-    width: 70%;
-}
-@media screen and (max-width: 700px) {
-    .Nutrition {
-        width: 90%;
-    }
-}
-@media screen and (max-width: 420px) {
-    .Nutrition {
-        width: 100%;
-    }
+    width: 100%;
 }
