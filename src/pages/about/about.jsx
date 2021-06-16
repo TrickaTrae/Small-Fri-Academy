@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './about.css';
 import Motto from '../../components/motto/motto';
 
 class About extends Component {
@@ -11,7 +10,7 @@ class About extends Component {
     render() {
         return (
             <div id="about">
-                <img className="building" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/building.jpg" alt="Small Fri Academy Building" />
+                <img className="img-fluid" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/building.jpg" alt="Small Fri Academy Building" />
 
                 <div className="container py-5">
                     <div className="row py-4">
@@ -70,15 +69,15 @@ class About extends Component {
                         </div>
                     </div>
 
-                    <div className="row pb-5">
-                        <div className="col-12 col-md-4 pb-4">
+                    <div className="row pb-5 d-flex align-items-center justify-content-center">
+                        <div className="col-12 col-md-6 pb-4">
                             <h4 className="m-0">
                                 Our center participates in the Child Nutrition Program. All meals are prepared according to the nutrition
                                 requirements established by USDA’s Child Nutrition Program.
                             </h4>
                         </div>
-                        <div className="col-12 col-md-8">
-                            <img className="nutrition" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/Nutrition-Table.png" alt="Nutrition Table" />
+                        <div className="col-12 col-md-6">
+                            <img className="img-fluid" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/Nutrition-Table.png" alt="Nutrition Table" />
                         </div>
                     </div>
                 </div>
