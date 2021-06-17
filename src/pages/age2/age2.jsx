@@ -2,7 +2,7 @@ import React from 'react';
 
 const Age2 = () => {
     return (
-        <div id="age2">
+        <div id="age2" className="fade-in-fwd">
             <img className="img-fluid w-100" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/2yr-3.jpg" alt="2 Year Olds" />
 
             <div className="container py-5">

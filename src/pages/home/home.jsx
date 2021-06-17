@@ -131,7 +131,7 @@ const management = () => {
 
 const Home = () => {
     return (
-        <div id="home">
+        <div id="home" className="fade-in-fwd">
             {carousel()}
             {about()}
             <Motto/>

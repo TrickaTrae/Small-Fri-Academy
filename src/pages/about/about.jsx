@@ -3,7 +3,7 @@ import Motto from '../../components/motto/motto';
 
 const About = () => {
     return (
-        <div id="about">
+        <div id="about" className="fade-in-fwd">
             <img className="img-fluid" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/building.jpg" alt="Small Fri Academy Building" />
 
             <div className="container py-5">

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Infants = () => {
     return (
-        <div id="infants">
+        <div id="infants" className="fade-in-fwd">
             <img className="img-fluid w-100" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/infant-2.jpg" alt="Infant" />
 
             <div className="container py-5">

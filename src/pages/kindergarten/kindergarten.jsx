@@ -2,7 +2,7 @@ import React from 'react';
 
 const Kindergarten = () => {
     return (
-        <div id="kindergarten">
+        <div id="kindergarten" className="fade-in-fwd">
             <img className="img-fluid w-100" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/Kindergarten-1.jpg" alt="School Age Kids" />
 
             <div className="container py-5">

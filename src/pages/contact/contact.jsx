@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div id="contact">
+        <div id="contact" className="fade-in-fwd">
             <div className="container py-5">
                 <div className="row py-4">
                     <div className="col-12 text-center">
