@@ -149,14 +149,16 @@ class Footer extends Component {
                         <Link to="/contact" className="text-white">Contact</Link>
                     </div>
                     <div className="col-12 col-md-4 text-center py-4">
+                        <span className="text-white">Monday - Friday, 7:00AM - 6:00PM</span>
+                        <br/>
                         <a href="https://goo.gl/maps/FwZst3N8iEaxboU2A" className="text-white">
                             <i className="fa fa-map-marker fa-lg"></i>
                             <span className="text-white px-1">131 W Woodrow St, Salt Lake City, UT 84107</span>
                         </a>
                         <br/>
-                        <span className="text-white">801-266-0177</span>
-                        <br/>
                         <span className="text-white">smallfrischools@msn.com</span>
+                        <br/>
+                        <span className="text-white">801-266-0177</span>
                         <br/>
                         <span>
                             <a href="https://www.facebook.com/groups/smallfriacademy/" className="text-white">

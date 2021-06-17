@@ -64,10 +64,9 @@ class Home extends Component {
 
                 <div className="row py-4 d-flex align-items-center justify-content-center">
                     <div className="col-8 col-sm-8 col-md-6 col-lg-4">
-                        <h1 className="m-0 text-center">Hours of Operation</h1>
+                        <h1 className="m-0 text-center pb-1">Hours of Operation</h1>
                         <h4 className="m-0 text-center">
-                            Monday - Friday<br/>
-                            7:00am - 6:00pm
+                            Monday - Friday, 7:00am - 6:00pm
                         </h4>
                     </div>
                     <div className="col-4 col-sm-4 col-md-6 col-lg-8">
@@ -80,20 +79,18 @@ class Home extends Component {
                         <img className="ages" src={Ages} alt="Ages" />
                     </div>
                     <div className="col-8 col-sm-8 col-md-6 col-lg-4">
-                        <h1 className="m-0 text-center">Age Care Range</h1>
+                        <h1 className="m-0 text-center pb-1">Age Care Range</h1>
                         <h4 className="m-0 text-center">
-                            We care for children from<br/>
-                            12 weeks to 9 years old
+                            We care for children from 12 weeks to 9 years old
                         </h4>
                     </div>
                 </div>
 
                 <div className="row py-4 d-flex align-items-center justify-content-center">
                     <div className="col-8 col-sm-8 col-md-6 col-lg-4">
-                        <h1 className="m-0 text-center">Meals We Provide</h1>
+                        <h1 className="m-0 text-center pb-1">Meals Provided</h1>
                         <h4 className="m-0 text-center">
-                            We provide breakfast, lunch, and<br/>
-                            snacks through-out the day
+                            We provide breakfast, lunch, and snacks through-out the day
                         </h4>
                     </div>
                     <div className="col-4 col-sm-4 col-md-6 col-lg-8">
@@ -124,7 +121,7 @@ class Home extends Component {
                 </div>
                 <div className="row pb-5 d-flex align-items-center justify-content-center">
                     <div className="col-12 col-lg-6">
-                        <h4 className="m-0 management-message">
+                        <h4 className="m-0 pb-4">
                             Small Fri Academy has been offering child care for 19 years. Our center was created to be dedicated to the
                             mental, social, emotional and physical growth of children. The utmost consideration and preparation is taken
                             in planning a daily schedule that meets the needs of your child. Our center has a home like atmosphere and
