@@ -137,8 +137,10 @@ class Footer extends Component {
         return (
             <div className="container pt-2">
                 <div className="row py-4 d-flex align-items-center justify-content-center">
-                    <div className="col-12 col-md-4 d-flex align-items-center justify-content-center py-4">
-                        <img className="logo" src={Logo} alt="Small Fri Logo" />
+                    <div className="col-12 col-md-4 py-4">
+                        <Link to="/" className="d-flex align-items-center justify-content-center">
+                            <img className="logo" src={Logo} alt="Small Fri Logo" />
+                        </Link>
                     </div>
                     <div className="col-12 col-md-4 text-center py-4">
                         <Link to="/about" className="text-white">About</Link><br/>

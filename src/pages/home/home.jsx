@@ -7,11 +7,6 @@ import Sandwich from '../../assetts/sandwich.png';
 import Motto from '../../components/motto/motto';
 
 class Home extends Component {
-
-    componentDidMount() {
-        window.scrollTo(0, 0)
-    }
-
     carousel = () => {
         return (
             <div id="carouselSlides" className="carousel slide carousel-fade" data-bs-ride="carousel">

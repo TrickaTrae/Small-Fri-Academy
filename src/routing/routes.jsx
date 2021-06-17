@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import NavBar from '../components/navbar/navbar';
 import Footer from '../components/footer/footer';
+import ScrollToTop from './scroll-to-top';
 import Home from '../pages/home/home';
 import About from '../pages/about/about'
 import Infants from '../pages/infants/infants';
@@ -12,6 +13,7 @@ import Contact from '../pages/contact/contact';
 
 export default () => (
     <BrowserRouter>
+    <ScrollToTop />
     <NavBar/>
         <Switch>
             <Route exact path='/' component={Home} />

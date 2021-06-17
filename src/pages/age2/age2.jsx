@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 
 class Age2 extends Component {
-
-    componentDidMount() {
-        window.scrollTo(0, 0)
-    }
-
     render() {
         return (
             <div id="age2">

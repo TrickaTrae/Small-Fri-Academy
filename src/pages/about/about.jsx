@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import Motto from '../../components/motto/motto';
 
 class About extends Component {
-
-    componentDidMount() {
-        window.scrollTo(0, 0)
-    }
-
     render() {
         return (
             <div id="about">

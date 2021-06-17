@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 
 class Kindergarten extends Component {
-
-    componentDidMount() {
-        window.scrollTo(0, 0)
-    }
-
     render() {
         return (
             <div id="kindergarten">
