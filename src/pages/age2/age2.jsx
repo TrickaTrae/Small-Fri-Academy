@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import './age2.css';
-import Age2Pic1 from '../../assetts/2yr-1.jpg';
-import Age2Pic2 from '../../assetts/2yr-2.jpg';
-import Age2Pic3 from '../../assetts/2yr-3.jpg';
 
 class Age2 extends Component {
 
@@ -13,95 +8,60 @@ class Age2 extends Component {
 
     render() {
         return (
-            <div className="Age2-Body pt-5">
-                <main className="Age2-Main">
-                    <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <h1 className="age2-title">Two Year Olds</h1>
-                            </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <p className="Age2-About">
-                                    We know two years olds are active, curious and creative. Our classroom has age appropriate materials to allow your two year old to safely learn
-                                    and explore. Every day the children will be engaged in numerous activities, which lend to developmental growth.
-                            </p>
-                            </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <img className="Age2-Pic1" src={Age2Pic1} alt="2 Year Old" />
-                            </div>
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 age2-list1">
-                                <ul>
-                                    <li>
-                                        Small motor skills activities include experimenting with play doh, stringing beads, lacing activities, cutting paper with toddler safe
-                                        scissors, building with blocks and legos, etc.
-                                        </li>
-                                    <li>
-                                        Large motor skills activities include games which teach hopping, jumping, skipping, galloping, somersaults, and basic tumbling.
-                                        </li>
-                                    <li>
-                                        Cognitive development includes a full preschool program for two three and four olds.
-                                        </li>
-                                    <li>
-                                        Social skills include games in which children learn how to work as a team and in partners. Such games include working together to play
-                                        parachute games, hide and seek, Red rover, London bridges, Ring around the Rosies, etc.
-                                        </li>
-                                    <li>
-                                        Story time includes stories read from books, and stories told with puppets or props. Stories also include child participation; teach memory
-                                        skills and sequencing techniques.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+            <div id="age2">
+                <img className="img-fluid" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/2yr-3.jpg" alt="2 Year Olds" />
 
-                        <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <img className="Age2-Pic3" src={Age2Pic3} alt="2 Year Olds" />
-                        </div>
-
-                        <div className="row">
-                            <div className="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-xs-12 age2-list2">
-                                <ul>
-                                    <li>
-                                        Drama includes games in which children get to use their imaginations and pretend to be different animals or characters. We also use dress
-                                        ups and props to help enhance the growing imagination.
-                                    </li>
-                                    <li>
-                                        Art we use an array of materials for the children to create fun paintings, and crafts to take home and share with the family.
-                                    </li>
-                                    <li>
-                                        Music awareness includes several areas of learning:
-                                    </li>
-                                    <ul>
-                                        <li>
-                                            Singing finger play songs
-                                        </li>
-                                        <li>
-                                            Dancing and moving to various genres of music (classical, country, modern) using props such as ribbons, bells and scarves
-                                        </li>
-                                        <li>
-                                            Games, which teach awareness of 3 and 4, count rhythms
-                                        </li>
-                                        <li>
-                                            Creating musical instruments to march in a marching band
-                                        </li>
-                                    </ul>
-                                </ul>
-                            </div>
-                            <div className="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                                <img className="Age2-Pic2" src={Age2Pic2} alt="2 Year Olds" />
-                            </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 divider">
-                            </div>
-                            <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 contact-column">
-                                <Link to="/Contact"><button className="contact-button">Contact Us &#187;</button></Link>
-                            </div>
+                <div className="container py-5">
+                    <div className="row py-4">
+                        <div className="col-12 text-center">
+                            <h1 className="m-0 display-2 fw-normal">Two Year Olds</h1>
                         </div>
                     </div>
-                </main>
 
+                    <div className="row py-4">
+                        <div className="col-12">
+                            <h4 className="m-0">
+                                We know two years olds are active, curious, and creative. Our classroom has age appropriate materials to allow your two year old to safely learn
+                                and explore. Every day the children will be engaged in numerous activities, which lend to developmental growth.
+                                <br/><br/>
+                                Small motor skill activities include experimenting with play doh, stringing beads, lacing activities, cutting paper with toddler safe
+                                scissors, building with blocks and legos, etc. Large motor skill activities include games which teach hopping, jumping, skipping, galloping,
+                                somersaults, and basic tumbling.
+                                <br/><br/>
+                                Cognitive development includes a full preschool program for two, three, and four olds.
+                                <br/><br/>
+                                Social skills include games in which children learn how to work as a team and in partners. Such games include working together to play
+                                parachute games, hide and seek, red rover, london bridges, ring around the rosies, etc.
+                            </h4>
+                        </div>
+                    </div>
+
+                    <div className="row py-4">
+                        <div className="col-12 col-sm-6 pb-4">
+                            <img className="img-fluid rounded" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/2yr-1.jpg" alt="2 Year Old" />
+                        </div>
+                        <div className="col-12 col-sm-6">
+                            <img className="img-fluid rounded" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/2yr-2.jpg" alt="2 Year Olds" />
+                        </div>
+                    </div>
+
+                    <div className="row py-4">
+                        <div className="col-12">
+                            <h4 className="m-0">
+                                Story time includes stories read from books, and stories told with puppets or props. Stories also include child participation; teaching memory
+                                skills and sequencing techniques.
+                                <br/><br/>
+                                Drama includes games in which children get to use their imaginations and pretend to be different animals or characters. We also use dress
+                                ups and props to help enhance the growing imagination.
+                                <br/><br/>
+                                Art we use an array of materials for the children to create fun paintings and crafts to take home and share with the family.
+                                <br/><br/>
+                                Music awareness includes several areas of learning such as finger play songs, dancing and moving to various genres of music (classical, country, modern) with
+                                props such as ribbons, bells and scarves, games which teach three and four count rhythms, and creating musical instruments to march in a marching band.
+                            </h4>
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }
