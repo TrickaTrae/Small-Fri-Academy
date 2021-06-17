@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
-import Logo from '../../assetts/Small-Fri-Logo-Transparent.png';
 
 class NavBar extends Component {
     render() {
@@ -10,7 +9,7 @@ class NavBar extends Component {
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                         <Link to="/" className="navbar-brand">
-                            <img className="d-inline-block align-text-center nav-logo" src={Logo} alt="Small Fri Logo" />
+                            <img className="d-inline-block align-text-center nav-logo" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/Small-Fri-Logo-Transparent.png" alt="Small Fri Logo" />
                             Small Fri Academy
                         </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

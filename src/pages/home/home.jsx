@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './home.css';
-import Clock from '../../assetts/clock.png';
-import Ages from '../../assetts/Ages.jpg';
-import Sandwich from '../../assetts/sandwich.png';
 import Motto from '../../components/motto/motto';
 
 class Home extends Component {
@@ -65,13 +62,13 @@ class Home extends Component {
                         </h4>
                     </div>
                     <div className="col-4 col-sm-4 col-md-6 col-lg-8">
-                        <img className="clock" src={Clock} alt="Clock" />
+                        <img className="clock" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/clock.png" alt="Clock" />
                     </div>
                 </div>
 
                 <div className="row py-4 d-flex align-items-center justify-content-center">
                     <div className="col-4 col-sm-4 col-md-6 col-lg-8">
-                        <img className="ages" src={Ages} alt="Ages" />
+                        <img className="ages" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/Ages.jpg" alt="Ages" />
                     </div>
                     <div className="col-8 col-sm-8 col-md-6 col-lg-4">
                         <h1 className="m-0 text-center pb-1">Age Care Range</h1>
@@ -89,7 +86,7 @@ class Home extends Component {
                         </h4>
                     </div>
                     <div className="col-4 col-sm-4 col-md-6 col-lg-8">
-                        <img className="sandwich" src={Sandwich} alt="Sandwich" />
+                        <img className="sandwich" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/sandwich.png" alt="Sandwich" />
                     </div>
                 </div>
 

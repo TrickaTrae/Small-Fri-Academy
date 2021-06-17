@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './footer.css';
-import Logo from '../../assetts/Small-Fri-Logo-Transparent.png';
 
 class Footer extends Component {
 
@@ -139,7 +138,7 @@ class Footer extends Component {
                 <div className="row py-4 d-flex align-items-center justify-content-center">
                     <div className="col-12 col-md-4 py-4">
                         <Link to="/" className="d-flex align-items-center justify-content-center">
-                            <img className="logo" src={Logo} alt="Small Fri Logo" />
+                            <img className="logo" src="https://small-fri-academy.s3.us-west-1.amazonaws.com/Small-Fri-Logo-Transparent.png" alt="Small Fri Logo" />
                         </Link>
                     </div>
                     <div className="col-12 col-md-4 text-center py-4">
