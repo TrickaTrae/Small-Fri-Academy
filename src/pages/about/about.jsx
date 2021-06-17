@@ -69,7 +69,7 @@ class About extends Component {
                         </div>
                     </div>
 
-                    <div className="row pb-5 d-flex align-items-center justify-content-center">
+                    <div className="row pb-5">
                         <div className="col-12 col-md-6 pb-4">
                             <h4 className="m-0">
                                 Our center participates in the Child Nutrition Program. All meals are prepared according to the nutrition
