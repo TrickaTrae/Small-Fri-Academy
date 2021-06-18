@@ -36,23 +36,23 @@ const Contact = () => {
                 </div>
 
                 <div className="row py-4 p-1">
-                    <div className="col-12 border border-secondary rounded p-5">
-                        <form action="https://formspree.io/smallfrischools@msn.com" method="POST">
+                    <div className="col-12 border border-secondary rounded p-5 bg-light">
+                        <form action="https://formspree.io/f/mknkbkzo" method="POST">
                             <div className="mb-3">
                                 <label htmlFor="name" className="form-label">Name</label>
-                                <input type="name" className="form-control" id="name" aria-describedby="name" required minLength="2" maxLength="40"/>
+                                <input type="name" name="name" className="form-control" id="name" aria-describedby="name" required minLength="2" maxLength="40"/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Email Address</label>
-                                <input type="email" className="form-control" id="email" required minLength="6" maxLength="55"/>
+                                <input type="email" name="email" className="form-control" id="email" required minLength="6" maxLength="55"/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="phone" className="form-label">Phone Number</label>
-                                <input type="phone" className="form-control" id="phone" required minLength="6" maxLength="55"/>
+                                <input type="phone" name="phone" className="form-control" id="phone" required minLength="6" maxLength="55"/>
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="text" className="form-label">Your Message</label>
-                                <textarea type="text" className="form-control" id="text" rows="3" required minLength="20" maxLength="2000"></textarea>
+                                <textarea type="text" name="message" className="form-control" id="text" rows="3" required minLength="20" maxLength="2000"></textarea>
                             </div>
                             <button type="submit" value="Submit" className="btn btn-outline-dark btn-lg px-5">Submit</button>
                         </form>
